@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfRichClipboard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfRichClipboard",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
