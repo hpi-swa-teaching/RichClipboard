@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"clipboardChanged:from:" : "graf 5/20/2020 19:54",
+		"destroy" : "graf 5/20/2020 19:51",
+		"initialize" : "graf 5/20/2020 19:50",
+		"storage" : "graf 5/20/2020 19:48",
+		"storage:" : "graf 5/20/2020 19:48" } }
