@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storageBackend" ],
-	"name" : "RCStorage",
+		 ],
+	"name" : "RichClipboardServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ServiceProvider",
 	"type" : "normal" }
