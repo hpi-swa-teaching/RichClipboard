@@ -2,14 +2,13 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'RichClipboard',
-      #platforms : [ #squeak ]
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ]
     }
   ],
   #testing : [
-    #include : {
-      #projects : [ 'BaselineOfRichClipboard' ]
-      #packages : [ 'RichClipboard-Tests' ]
-    },
+    #packages : [ 'RichClipboard-Tests' ],
     #coverage : {
       #packages : [ 'RichClipboard' ]
     }
