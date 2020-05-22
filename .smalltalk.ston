@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'BaselineOfRichClipboard',
+      #baseline : 'RichClipboard',
       #platforms : [ #squeak ]
     }
   ],
