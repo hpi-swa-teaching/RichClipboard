@@ -1,0 +1,14 @@
+{
+	"category" : "RichClipboard-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"richClipboard" ],
+	"name" : "RichClipboardTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

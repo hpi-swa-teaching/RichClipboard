@@ -1,0 +1,14 @@
+{
+	"category" : "RichClipboard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"storage" ],
+	"name" : "RichClipboard",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
