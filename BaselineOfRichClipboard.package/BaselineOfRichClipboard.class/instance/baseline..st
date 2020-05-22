@@ -5,6 +5,11 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				group: 'default' with: #();
-				group: 'tests' with: #()];
+				package: 'RichClipboard';
+				package: 'RichClipboard-Tests' with: [
+					spec requires: #('RichClipboard')];
+				yourself.
+			spec
+				 group: 'default' with: #('RichClipboard');
+				group: 'tests' with: #('RichClipboard-Tests')];
 				yourself
