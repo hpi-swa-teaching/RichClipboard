@@ -8,6 +8,10 @@ SmalltalkCISpec {
   #testing : [
     #include : {
       #projects : [ 'BaselineOfRichClipboard' ]
+      #packages : [ 'RichClipboard-Tests' ]
+    },
+    #coverage : {
+      #packages : [ 'RichClipboard' ]
     }
   ]
 }
