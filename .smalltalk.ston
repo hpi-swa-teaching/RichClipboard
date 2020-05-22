@@ -3,7 +3,6 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'RichClipboard',
       #platforms : [ #squeak ],
-      #directory : 'packages',
       #load : [ 'tests' ]
     }
   ],
