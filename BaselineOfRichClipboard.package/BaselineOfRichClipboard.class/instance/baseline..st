@@ -10,6 +10,6 @@ baseline: spec
 					spec requires: #('RichClipboard')];
 				yourself.
 			spec
-				 group: 'default' with: #('RichClipboard');
+				group: 'default' with: #('RichClipboard');
 				group: 'tests' with: #('RichClipboard-Tests')];
 				yourself
