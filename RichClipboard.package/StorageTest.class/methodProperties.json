@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "DW 5/20/2020 14:24",
+		"storage" : "DW 5/20/2020 14:21",
+		"storage:" : "DW 5/20/2020 14:21",
+		"testCanAddItems" : "DW 5/20/2020 14:34",
+		"testEmptyStorageIsEmpty" : "DW 5/20/2020 14:34",
+		"testGetAllReturnsAllItems" : "DW 5/20/2020 14:46",
+		"testGetRaisesErrorOnInvalidInput" : "DW 5/20/2020 16:40",
+		"testGetReturnsLastXItems" : "graf 5/20/2020 19:38",
+		"testNonEmptyStorageIsNotEmpty" : "DW 5/20/2020 14:34",
+		"testSizeReturnsNumberOfStoredElements" : "graf 5/20/2020 19:45" } }

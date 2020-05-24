@@ -1,5 +1,5 @@
 OrderedDictionary {
 	'BaselineOfRichClipboard.package' : #SquotCypressCodeSerializer,
 	'RichClipboard.package' : #SquotCypressCodeSerializer,
-    'RichClipboard-Tests.package' : #SquotCypressCodeSerializer
+	'RichClipboard-Tests.package' : #SquotCypressCodeSerializer
 }
