@@ -1,3 +1,3 @@
 running
 setUp
-	self storage: RCStorage new.
+	self storage: RCStorage new

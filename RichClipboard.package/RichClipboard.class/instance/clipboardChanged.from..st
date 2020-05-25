@@ -1,3 +1,3 @@
 events
-clipboardChanged: newClipboardText from: updateSource
-	self storage add: newClipboardText.
+clipboardChanged: newClipboardContent from: updateSource
+	self storage add: newClipboardContent
