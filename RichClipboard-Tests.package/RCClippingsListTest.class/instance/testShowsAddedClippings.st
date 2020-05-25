@@ -9,4 +9,4 @@ testShowsAddedClippings
 	storageSize := clippingsList submorphCount. 
 	storage add: 'hallo'.
 	storage add: 'world'.
-	self assert: (storageSize > clippingsList submorphCount)
+	self assert: (storageSize < clippingsList submorphCount)
