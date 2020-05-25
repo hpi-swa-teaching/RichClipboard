@@ -7,4 +7,8 @@ initialize
 		when: #contentChanged
 		send: #clipboardChanged:from:
 		to: self.
+	self window
+		when: #delete
+		send: #destroy
+		to: self.
 	self window openInWorld
