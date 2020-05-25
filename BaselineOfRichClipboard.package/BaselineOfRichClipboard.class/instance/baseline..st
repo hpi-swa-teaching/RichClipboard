@@ -11,5 +11,4 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('RichClipboard');
-				group: 'tests' with: #('RichClipboard-Tests')];
-				yourself
+				group: 'tests' with: #('RichClipboard-Tests')]
