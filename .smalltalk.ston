@@ -10,6 +10,6 @@ SmalltalkCISpec {
     #packages : [ 'RichClipboard-Tests' ],
     #coverage : {
       #packages : [ 'RichClipboard' ]
-    },
+    }
   }
 }
