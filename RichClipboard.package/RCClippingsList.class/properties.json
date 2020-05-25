@@ -1,0 +1,14 @@
+{
+	"category" : "RichClipboard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"storage" ],
+	"name" : "RCClippingsList",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
