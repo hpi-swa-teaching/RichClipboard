@@ -11,4 +11,5 @@
 		"testGetRaisesErrorOnInvalidInput" : "DW 5/20/2020 16:40",
 		"testGetReturnsLastXItems" : "graf 5/20/2020 19:38",
 		"testNonEmptyStorageIsNotEmpty" : "DW 5/20/2020 14:34",
+		"testSendsNotificationOnAddedItem" : "siddeshkanth logonathan 5/25/2020 10:08",
 		"testSizeReturnsNumberOfStoredElements" : "graf 5/20/2020 19:45" } }
