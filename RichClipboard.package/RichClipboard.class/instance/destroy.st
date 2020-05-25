@@ -2,4 +2,5 @@ destroy
 destroy
 	Clipboard default removeActionsWithReceiver: self.
 	self window removeActionsWithReceiver: self.
-	self window delete
+	self window delete.
+	self removeFromWorldMenu

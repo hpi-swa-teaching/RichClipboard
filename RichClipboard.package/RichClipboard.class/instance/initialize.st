@@ -11,4 +11,5 @@ initialize
 		when: #delete
 		send: #destroy
 		to: self.
-	self window openInWorld
+	self window openInWorld.
+	self addToWorldMenu
