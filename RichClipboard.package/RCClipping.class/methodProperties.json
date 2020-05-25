@@ -4,4 +4,7 @@
 	"instance" : {
 		"clipping" : "graf 5/25/2020 10:55",
 		"clipping:" : "graf 5/25/2020 10:55",
-		"initialize" : "graf 5/25/2020 10:55" } }
+		"cornerStyle" : "graf 5/25/2020 19:10",
+		"defaultColor" : "graf 5/25/2020 17:41",
+		"handlesMouseDown:" : "graf 5/25/2020 19:13",
+		"initialize" : "graf 5/25/2020 19:00" } }

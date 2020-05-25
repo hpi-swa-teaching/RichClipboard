@@ -1,0 +1,3 @@
+settings
+defaultHorizontalItemPadding
+	^ 10

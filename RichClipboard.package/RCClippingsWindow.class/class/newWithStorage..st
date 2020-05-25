@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 newWithStorage: rcStorage
 	| window |
 	window := RCClippingsWindow basicNew.

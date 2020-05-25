@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storage",
-		"clippingsList" ],
+		"storage" ],
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }
