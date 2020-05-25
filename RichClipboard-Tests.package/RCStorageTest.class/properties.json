@@ -1,14 +1,14 @@
 {
-	"category" : "RichClipboard",
+	"category" : "RichClipboard-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "RichClipboardServiceProvider",
+		"storage" ],
+	"name" : "RCStorageTest",
 	"pools" : [
 		 ],
-	"super" : "ServiceProvider",
+	"super" : "TestCase",
 	"type" : "normal" }
