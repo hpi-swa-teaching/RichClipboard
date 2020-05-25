@@ -1,11 +1,12 @@
 initialize-release
 initialize
 	| scrollPane |
-	super initialize.
 	
-	self setLabel: 'RichClipboard'.
+	super initialize.
+	self setLabel: RCClippingsWindow defaultLabel.
 	
 	scrollPane := ScrollPane new.
 	self addMorph: scrollPane frame: (0@0 corner: 1@1).
+	
 	self clippingsList: (RCClippingsList newWithStorage: self storage).
 	scrollPane scroller addMorph: self clippingsList

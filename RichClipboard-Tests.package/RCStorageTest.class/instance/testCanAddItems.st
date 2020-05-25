@@ -1,4 +1,4 @@
 testing
 testCanAddItems
-	self shouldnt: [self storage add: 'Test'.] raise: Error
+	self shouldnt: [ self storage add: 'Test' ] raise: Error
 	

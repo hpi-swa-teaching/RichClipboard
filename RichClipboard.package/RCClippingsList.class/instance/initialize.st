@@ -1,8 +1,10 @@
 initialize-release
 initialize
 	super initialize.
+	self borderWidth: 0.
 	
 	self update.
-	self storage when: #addedEntry send: #addedEntry: to: self.
-	
-	self borderWidth: 0
+	self storage 
+		when: #addedEntry 
+		send: #addedEntry: 
+		to: self

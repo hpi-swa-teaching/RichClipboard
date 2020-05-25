@@ -1,3 +1,3 @@
 storage
 getAll
-	^self storageBackend copy
+	^ self storageBackend copy
