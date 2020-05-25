@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DW 5/24/2020 16:52",
+	"commentStamp" : "",
 	"instvars" : [
-		"storage" ],
-	"name" : "RCClippingsWindow",
+		"clipping" ],
+	"name" : "RCClipping",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "TextMorph",
 	"type" : "normal" }

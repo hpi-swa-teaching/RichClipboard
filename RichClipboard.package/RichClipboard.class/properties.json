@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storage" ],
+		"storage",
+		"window" ],
 	"name" : "RichClipboard",
 	"pools" : [
 		 ],

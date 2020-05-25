@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storage" ],
+		"storage",
+		"clippingsList" ],
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],

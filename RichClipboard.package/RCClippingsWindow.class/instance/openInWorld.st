@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openInWorld
 	super openInWorld.
 	self extent: 400@400

@@ -2,10 +2,12 @@ as yet unclassified
 testShowsInitalClippings
 
 	| storage storageSize clippingsList|
-	clippingsList := RCClippingsList new.
+	
 	storage := RCStorage new.
-	storageSize := clippingsList size. 
 	storage add: 'hallo'.
 	storage add: 'world'.
-	clippingsList storage: storage.
+	
+	clippingsList := RCClippingsList newWithStorage: storage.
+	
+	storageSize := clippingsList size. 
 	self assert: (clippingsList size = 2)

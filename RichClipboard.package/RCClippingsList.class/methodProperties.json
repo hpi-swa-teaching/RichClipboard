@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"newWithStorage:" : "graf 5/25/2020 10:46" },
 	"instance" : {
+		"addedEntry:" : "graf 5/25/2020 10:50",
+		"initialize" : "graf 5/25/2020 10:49",
 		"storage" : "siddeshkanth logonathan 5/25/2020 10:12",
-		"storage:" : "siddeshkanth logonathan 5/25/2020 10:12" } }
+		"storage:" : "siddeshkanth logonathan 5/25/2020 10:12",
+		"update" : "graf 5/25/2020 10:52" } }
