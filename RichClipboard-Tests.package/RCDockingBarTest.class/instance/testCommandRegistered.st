@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCommandRegistered
 	"A new open command should be registered when a RichClipboard is
 	initialized"

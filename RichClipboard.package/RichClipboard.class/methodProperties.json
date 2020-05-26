@@ -4,9 +4,9 @@
 	"instance" : {
 		"addToWorldMenu" : "joj 5/26/2020 12:01",
 		"clipboardChanged:from:" : "graf 5/25/2020 20:58",
-		"removeFromWorldMenu" : "joj 5/26/2020 12:01",
 		"destroy" : "graf 5/25/2020 22:04",
 		"initialize" : "graf 5/25/2020 22:05",
+		"removeFromWorldMenu" : "joj 5/26/2020 12:01",
 		"storage" : "graf 5/20/2020 19:48",
 		"storage:" : "graf 5/20/2020 19:48",
 		"window" : "graf 5/25/2020 10:59",
