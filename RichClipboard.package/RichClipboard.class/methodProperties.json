@@ -2,11 +2,11 @@
 	"class" : {
 		"destroyAll" : "graf 5/25/2020 11:22" },
 	"instance" : {
-		"addToWorldMenu" : "joj 5/25/2020 22:17",
+		"addToWorldMenu" : "joj 5/26/2020 12:01",
 		"clipboardChanged:from:" : "graf 5/25/2020 20:58",
 		"destroy" : "joj 5/25/2020 22:02",
 		"initialize" : "joj 5/25/2020 21:57",
-		"removeFromWorldMenu" : "joj 5/25/2020 22:00",
+		"removeFromWorldMenu" : "joj 5/26/2020 12:01",
 		"storage" : "graf 5/20/2020 19:48",
 		"storage:" : "graf 5/20/2020 19:48",
 		"window" : "graf 5/25/2020 10:59",
