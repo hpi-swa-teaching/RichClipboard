@@ -14,4 +14,4 @@ initialize
 		send: #destroy
 		to: self.
 	self window openInWorld.
-	self addToWorldMenu
+	self addToAppsWorldMenu
