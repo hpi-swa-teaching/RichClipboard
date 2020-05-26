@@ -1,3 +1,3 @@
 storage
 size
-	^self storageBackend size
+	^ self storageBackend size

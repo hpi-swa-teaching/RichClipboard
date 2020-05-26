@@ -1,7 +1,6 @@
-as yet unclassified
+testing
 testShowsInitalClippings
-
-	| storage storageSize clippingsList|
+	| storage storageSize clippingsList |
 	
 	storage := RCStorage new.
 	storage add: 'hallo'.

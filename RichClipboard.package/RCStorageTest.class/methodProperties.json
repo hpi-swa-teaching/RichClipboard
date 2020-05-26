@@ -5,11 +5,11 @@
 		"setUp" : "graf 5/25/2020 20:58",
 		"storage" : "DW 5/20/2020 14:21",
 		"storage:" : "DW 5/20/2020 14:21",
-		"testCanAddItems" : "DW 5/20/2020 14:34",
+		"testCanAddItems" : "graf 5/25/2020 21:37",
 		"testEmptyStorageIsEmpty" : "DW 5/20/2020 14:34",
-		"testGetAllReturnsAllItems" : "graf 5/25/2020 20:24",
-		"testGetRaisesErrorOnInvalidInput" : "graf 5/25/2020 20:58",
-		"testGetReturnsLastXItems" : "graf 5/20/2020 19:38",
+		"testGetAllReturnsAllItems" : "graf 5/25/2020 21:37",
+		"testGetRaisesErrorOnInvalidInput" : "graf 5/25/2020 21:37",
+		"testGetReturnsLastXItems" : "graf 5/25/2020 21:37",
 		"testNonEmptyStorageIsNotEmpty" : "DW 5/20/2020 14:34",
-		"testSendsNotificationOnAddedItem" : "siddeshkanth logonathan 5/25/2020 10:08",
-		"testSizeReturnsNumberOfStoredElements" : "graf 5/25/2020 20:59" } }
+		"testSendsNotificationOnAddedItem" : "graf 5/25/2020 21:38",
+		"testSizeReturnsNumberOfStoredElements" : "graf 5/25/2020 21:38" } }

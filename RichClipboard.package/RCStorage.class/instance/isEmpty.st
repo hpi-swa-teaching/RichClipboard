@@ -1,3 +1,3 @@
 storage
 isEmpty
-	^self storageBackend isEmpty
+	^ self storageBackend isEmpty

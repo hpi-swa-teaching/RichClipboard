@@ -1,7 +1,6 @@
-as yet unclassified
+testing
 testShowsAddedClippings
-
-	| storage storageSize clippingsList|
+	| storage storageSize clippingsList |
 	
 	storage := RCStorage new.
 	clippingsList := RCClippingsList newWithStorage: storage.

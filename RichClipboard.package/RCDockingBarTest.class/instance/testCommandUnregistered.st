@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 testCommandUnregistered
 	"The open command should be unregistered when the RichClipboard is
 	destroyed "

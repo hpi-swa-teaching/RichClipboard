@@ -10,5 +10,5 @@
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Morph",
 	"type" : "normal" }

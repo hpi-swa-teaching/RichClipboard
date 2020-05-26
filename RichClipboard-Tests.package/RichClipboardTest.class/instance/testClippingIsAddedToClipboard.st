@@ -1,8 +1,14 @@
 testing
 testClippingIsAddedToClipboard
-	| clipping |
+	| clipping priorClipping |
+	
 	clipping := 'CLIPBOARD_TEST_wf987h239ifhb1987638fg'.
+	priorClipping := Clipboard default clipboardText.
 	self assert: self richClipboard storage size = 0.
+	
 	Clipboard default clipboardText: clipping  notifyWith: self.
 	self assert: self richClipboard storage size = 1.
-	self assert: (self richClipboard storage getAll includes: clipping)
+	self assert: (self richClipboard storage getAll includes: clipping).
+	
+	Clipboard default clipboardText: priorClipping
+	
