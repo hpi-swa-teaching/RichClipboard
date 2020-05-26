@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "joj 5/25/2020 22:06",
-		"tearDown" : "joj 5/25/2020 22:07" } }
+		"testCommandRegistered" : "joj 5/26/2020 12:21",
+		"testCommandUnregistered" : "joj 5/26/2020 12:24" } }
