@@ -1,12 +1,12 @@
 initialize-release
 initialize
-	| scrollPane |
+	| pluggableListMorph |
 	
 	super initialize.
 	self setLabel: RCClippingsWindow defaultLabel.
 	
-	scrollPane := ScrollPane new.
-	self addMorph: scrollPane frame: (0@0 corner: 1@1).
-	
 	self clippingsList: (RCClippingsList newWithStorage: self storage).
-	scrollPane scroller addMorph: self clippingsList
+	
+	
+	pluggableListMorph := RCPluggableListMorph newWithClippingsList: self clippingsList.
+	self addMorph: pluggableListMorph frame: (0@0 corner: 1@1)

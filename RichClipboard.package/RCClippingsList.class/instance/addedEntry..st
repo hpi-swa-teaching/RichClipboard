@@ -1,3 +1,3 @@
 events
 addedEntry: clipping
-	self update
+	self changed: #clippings

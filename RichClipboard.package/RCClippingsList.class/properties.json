@@ -1,5 +1,5 @@
 {
-	"category" : "RichClipboard",
+	"category" : "RichClipboard-GUI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "LazyListMorph",
 	"type" : "normal" }
