@@ -5,9 +5,11 @@
 		"newWithStorage:" : "graf 5/25/2020 21:52" },
 	"instance" : {
 		"addedEntry:" : "graf 5/30/2020 16:44",
-		"clippings" : "graf 5/30/2020 16:21",
+		"clippings" : "graf 5/30/2020 18:13",
 		"defaultColor" : "graf 5/25/2020 17:41",
-		"initialize" : "graf 5/30/2020 16:41",
+		"filterByRegex:" : "graf 5/30/2020 18:45",
+		"initialize" : "graf 5/30/2020 18:09",
+		"removeFilterByRegex" : "graf 5/30/2020 18:09",
 		"selectedClippingIndex" : "graf 5/30/2020 16:19",
 		"selectedClippingIndex:" : "graf 5/30/2020 16:19",
 		"storage" : "siddeshkanth logonathan 5/25/2020 10:12",

@@ -7,7 +7,9 @@
 	"commentStamp" : "DW 5/24/2020 16:52",
 	"instvars" : [
 		"storage",
-		"clippingsList" ],
+		"clippingsList",
+		"regexSearchBarVisible",
+		"regexSearchBarMorph" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 initialize-release
 openInWorld
 	super openInWorld.
-	self extent: RCClippingsWindow defaultExtent
+	self extent: self class defaultExtent

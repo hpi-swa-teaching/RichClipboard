@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storage",
-		"regexFilter" ],
-	"name" : "RCClippingsList",
+		 ],
+	"name" : "RCSearchBarMorph",
 	"pools" : [
 		 ],
-	"super" : "LazyListMorph",
+	"super" : "TextMorph",
 	"type" : "normal" }

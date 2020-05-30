@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultBottomBarHeight" : "graf 5/30/2020 17:44",
 		"defaultExtent" : "graf 5/25/2020 21:58",
 		"defaultLabel" : "graf 5/30/2020 16:13",
 		"newWithStorage:" : "graf 5/25/2020 21:56" },
@@ -7,7 +8,14 @@
 		"clippingsList" : "siddeshkanth logonathan 5/25/2020 09:41",
 		"clippingsList:" : "siddeshkanth logonathan 5/25/2020 09:41",
 		"delete" : "graf 5/25/2020 21:09",
-		"initialize" : "graf 5/30/2020 16:59",
-		"openInWorld" : "graf 5/25/2020 21:59",
+		"hideRegexSearchBar" : "graf 5/30/2020 18:39",
+		"initialize" : "graf 5/30/2020 19:02",
+		"openInWorld" : "graf 5/30/2020 17:47",
+		"regexSearchBarVisible" : "graf 5/30/2020 17:58",
+		"regexSearchBarVisible:" : "graf 5/30/2020 18:01",
+		"regexSearchButtonEnabled" : "graf 5/30/2020 17:34",
+		"regexSearchButtonLabel" : "graf 5/30/2020 19:03",
+		"showRegexSearchBar" : "graf 5/30/2020 18:51",
 		"storage" : "graf 5/25/2020 11:00",
-		"storage:" : "graf 5/25/2020 11:00" } }
+		"storage:" : "graf 5/25/2020 11:00",
+		"toggleRegexSearch" : "graf 5/30/2020 17:58" } }
