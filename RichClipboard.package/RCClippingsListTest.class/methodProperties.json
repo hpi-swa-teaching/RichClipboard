@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testShowsAddedClippings" : "graf 5/25/2020 21:36",
-		"testShowsInitalClippings" : "graf 5/25/2020 21:36" } }
+		"testAppliesRegexFilter" : "graf 5/31/2020 18:19",
+		"testRegexFilterRemovable" : "graf 5/31/2020 18:21",
+		"testShowsAddedClippings" : "graf 5/31/2020 18:01",
+		"testShowsInitalClippings" : "graf 5/31/2020 18:01" } }

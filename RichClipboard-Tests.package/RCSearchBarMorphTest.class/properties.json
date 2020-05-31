@@ -1,5 +1,5 @@
 {
-	"category" : "RichClipboard",
+	"category" : "RichClipboard-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "RichClipboardServiceProvider",
+	"name" : "RCSearchBarMorphTest",
 	"pools" : [
 		 ],
-	"super" : "ServiceProvider",
+	"super" : "TestCase",
 	"type" : "normal" }

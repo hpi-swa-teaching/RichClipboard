@@ -8,5 +8,5 @@ testShowsInitalClippings
 	
 	clippingsList := RCClippingsList newWithStorage: storage.
 	
-	storageSize := clippingsList submorphCount. 
-	self assert: (clippingsList submorphCount = 2)
+	storageSize := clippingsList clippings size. 
+	self assert: (clippingsList clippings size = 2)

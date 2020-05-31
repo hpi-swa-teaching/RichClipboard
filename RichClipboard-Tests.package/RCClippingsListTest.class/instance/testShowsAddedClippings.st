@@ -5,7 +5,7 @@ testShowsAddedClippings
 	storage := RCStorage new.
 	clippingsList := RCClippingsList newWithStorage: storage.
 	
-	storageSize := clippingsList submorphCount. 
+	storageSize := clippingsList clippings size. 
 	storage add: 'hallo'.
 	storage add: 'world'.
-	self assert: (storageSize < clippingsList submorphCount)
+	self assert: (storageSize < clippingsList clippings size)
