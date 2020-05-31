@@ -1,3 +1,3 @@
-accessing
+regex
 regexSearchButtonEnabled
 	^ true

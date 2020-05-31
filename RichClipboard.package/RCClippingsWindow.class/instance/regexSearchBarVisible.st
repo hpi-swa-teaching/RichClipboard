@@ -1,3 +1,3 @@
-accessing
+regex
 regexSearchBarVisible
-	^ regexSearchBarVisible
+	^ regexSearchBarVisible ifNil: [ false ]

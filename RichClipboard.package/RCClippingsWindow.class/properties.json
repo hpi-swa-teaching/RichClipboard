@@ -9,7 +9,8 @@
 		"storage",
 		"clippingsList",
 		"regexSearchBarVisible",
-		"regexSearchBarMorph" ],
+		"regexSearchBarMorph",
+		"toolbarMorph" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
 		 ],

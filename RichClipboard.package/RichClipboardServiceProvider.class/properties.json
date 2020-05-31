@@ -1,14 +1,14 @@
 {
-	"category" : "RichClipboard-GUI",
+	"category" : "RichClipboard",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clipping" ],
-	"name" : "RCClipping",
+		 ],
+	"name" : "RichClipboardServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

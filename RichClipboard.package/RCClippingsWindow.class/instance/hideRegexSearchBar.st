@@ -1,6 +1,7 @@
 regex
 hideRegexSearchBar
-	"Private"
-	regexSearchBarMorph delete.
-	regexSearchBarMorph := nil.
-	self clippingsList removeFilterByRegex
+	self regexSearchBarVisible ifTrue: [
+		regexSearchBarMorph delete.
+		self clippingsList removeFilterByRegex.
+		regexSearchBarVisible := false
+	]

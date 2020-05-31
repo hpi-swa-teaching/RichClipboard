@@ -1,3 +1,7 @@
-button handlers
+regex
 toggleRegexSearch
-	self regexSearchBarVisible: (self regexSearchBarVisible not)
+	self regexSearchBarVisible ifTrue: [ 
+		self hideRegexSearchBar
+	] ifFalse: [ 
+		self showRegexSearchBar
+	]

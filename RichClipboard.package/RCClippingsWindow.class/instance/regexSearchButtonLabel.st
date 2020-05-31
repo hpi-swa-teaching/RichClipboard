@@ -1,3 +1,3 @@
-button labels
+regex
 regexSearchButtonLabel
 	^ 'Regex Search'

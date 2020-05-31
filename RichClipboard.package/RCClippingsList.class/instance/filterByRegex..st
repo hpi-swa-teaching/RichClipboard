@@ -1,5 +1,4 @@
 regex
-filterByRegex: regex
-	regexFilter := regex.
-	Transcript showln: regex.
+filterByRegex: regexString
+	regexFilter := regexString asRegex.
 	self changed: #clippings
