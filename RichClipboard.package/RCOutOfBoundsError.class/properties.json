@@ -1,0 +1,14 @@
+{
+	"category" : "RichClipboard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RCOutOfBoundsError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

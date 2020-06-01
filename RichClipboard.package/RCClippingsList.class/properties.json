@@ -1,0 +1,15 @@
+{
+	"category" : "RichClipboard-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"storage",
+		"regexFilter" ],
+	"name" : "RCClippingsList",
+	"pools" : [
+		 ],
+	"super" : "LazyListMorph",
+	"type" : "normal" }

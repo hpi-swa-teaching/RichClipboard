@@ -1,0 +1,17 @@
+{
+	"category" : "RichClipboard-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"richClipboard",
+		"storage",
+		"rcclippings",
+		"clipboard" ],
+	"name" : "RCCopyToClipboardTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
