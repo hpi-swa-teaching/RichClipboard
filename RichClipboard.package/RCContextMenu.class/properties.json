@@ -1,0 +1,15 @@
+{
+	"category" : "RichClipboard-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"storage",
+		"clippings" ],
+	"name" : "RCContextMenu",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

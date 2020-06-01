@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clippingsList" : "joj 6/1/2020 11:46",
+		"clippingsList:" : "joj 6/1/2020 11:46",
+		"setUp" : "joj 6/1/2020 11:48",
+		"storage" : "joj 6/1/2020 11:46",
+		"storage:" : "joj 6/1/2020 11:46",
+		"testEmitsCtrlVPressed" : "joj 6/1/2020 11:19",
+		"testPasteSelectedClipping" : "joj 6/1/2020 12:03",
+		"testRetrieveRecentClippings" : "joj 6/1/2020 11:48" } }
