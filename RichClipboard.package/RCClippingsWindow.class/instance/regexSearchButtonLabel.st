@@ -1,0 +1,3 @@
+regex
+regexSearchButtonLabel
+	^ 'Regex Search'

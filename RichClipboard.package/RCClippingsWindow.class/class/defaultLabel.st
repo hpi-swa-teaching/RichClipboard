@@ -1,3 +1,3 @@
 settings
 defaultLabel
-	^ 'ReichesNotizen'
+	^ 'ReichesKlammerBrett'

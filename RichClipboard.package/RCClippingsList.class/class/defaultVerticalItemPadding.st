@@ -1,3 +1,0 @@
-settings
-defaultVerticalItemPadding
-	^ 10

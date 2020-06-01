@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"defaultHorizontalItemPadding" : "graf 5/25/2020 19:00",
-		"defaultVerticalItemPadding" : "graf 5/25/2020 17:25",
 		"newWithStorage:" : "graf 5/25/2020 21:52" },
 	"instance" : {
-		"addedEntry:" : "graf 5/25/2020 11:25",
+		"addedEntry:" : "graf 5/30/2020 16:44",
+		"applyRegexFilter:" : "graf 5/31/2020 17:36",
+		"clippings" : "graf 5/31/2020 17:34",
 		"defaultColor" : "graf 5/25/2020 17:41",
-		"initialize" : "graf 5/25/2020 21:53",
+		"filterByRegex:" : "graf 5/31/2020 17:37",
+		"initialize" : "graf 5/30/2020 18:09",
+		"removeFilterByRegex" : "graf 5/30/2020 18:09",
+		"selectedClippingIndex" : "graf 5/30/2020 16:19",
+		"selectedClippingIndex:" : "graf 5/30/2020 16:19",
 		"storage" : "siddeshkanth logonathan 5/25/2020 10:12",
-		"storage:" : "siddeshkanth logonathan 5/25/2020 10:12",
-		"update" : "graf 5/25/2020 21:55",
-		"width:" : "graf 5/25/2020 21:02" } }
+		"storage:" : "graf 5/31/2020 18:20" } }

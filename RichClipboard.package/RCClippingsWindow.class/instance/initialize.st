@@ -1,12 +1,9 @@
 initialize-release
 initialize
-	| scrollPane |
-	
 	super initialize.
-	self setLabel: RCClippingsWindow defaultLabel.
-	
-	scrollPane := ScrollPane new.
-	self addMorph: scrollPane frame: (0@0 corner: 1@1).
-	
-	self clippingsList: (RCClippingsList newWithStorage: self storage).
-	scrollPane scroller addMorph: self clippingsList
+	self setLabel: self class defaultLabel.
+	self
+		clippingsList: (RCClippingsList newWithStorage: self storage).
+	self addClippingsList.
+	self addToolbar.
+	self addToToolbar: self createRegexSearchButton

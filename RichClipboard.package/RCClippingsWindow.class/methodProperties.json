@@ -1,14 +1,24 @@
 {
 	"class" : {
+		"defaultBottomBarHeight" : "graf 5/30/2020 17:44",
 		"defaultExtent" : "graf 5/25/2020 21:58",
-		"defaultLabel" : "graf 5/25/2020 22:00",
+		"defaultLabel" : "graf 5/30/2020 16:13",
 		"newWithStorage:" : "graf 5/25/2020 21:56" },
 	"instance" : {
+		"addClippingsList" : "joj 6/1/2020 10:11",
+		"addToToolbar:" : "graf 5/31/2020 17:14",
+		"addToolbar" : "joj 6/1/2020 10:11",
 		"clippingsList" : "siddeshkanth logonathan 5/25/2020 09:41",
-		"clippingsList:" : "siddeshkanth logonathan 5/25/2020 09:41",
+		"clippingsList:" : "graf 5/31/2020 17:22",
+		"createRegexSearchButton" : "joj 6/1/2020 10:13",
 		"delete" : "graf 5/25/2020 21:09",
-		"extentChanged:" : "graf 5/25/2020 21:02",
-		"initialize" : "graf 5/25/2020 21:59",
-		"openInWorld" : "graf 5/25/2020 21:59",
+		"hideRegexSearchBar" : "joj 6/1/2020 10:11",
+		"initialize" : "joj 6/1/2020 10:11",
+		"openInWorld" : "graf 5/30/2020 17:47",
+		"regexSearchBarVisible" : "graf 5/31/2020 17:25",
+		"regexSearchButtonEnabled" : "graf 5/30/2020 17:34",
+		"regexSearchButtonLabel" : "graf 5/30/2020 19:03",
+		"showRegexSearchBar" : "joj 6/1/2020 10:15",
 		"storage" : "graf 5/25/2020 11:00",
-		"storage:" : "graf 5/25/2020 11:00" } }
+		"storage:" : "graf 5/31/2020 17:29",
+		"toggleRegexSearch" : "joj 6/1/2020 10:15" } }
