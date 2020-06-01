@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storageBackend" ],
+		"storageBackend",
+		"privateModeActive" ],
 	"name" : "RCStorage",
 	"pools" : [
 		 ],
