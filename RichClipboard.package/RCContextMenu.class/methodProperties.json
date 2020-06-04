@@ -1,7 +1,17 @@
 {
 	"class" : {
-		 },
+		"defaultExtent" : "DW 6/4/2020 15:31",
+		"defaultLabel" : "DW 6/4/2020 17:52",
+		"newWithStorage:" : "DW 6/4/2020 15:49" },
 	"instance" : {
-		"initialize" : "joj 6/1/2020 10:50",
+		"addClippingsList" : "DW 6/4/2020 17:25",
+		"clippingsList" : "DW 6/4/2020 15:55",
+		"clippingsList:" : "DW 6/4/2020 15:55",
+		"delete" : "DW 6/4/2020 15:52",
+		"initialize" : "DW 6/4/2020 17:50",
 		"keyStroke:" : "joj 6/1/2020 10:49",
-		"pasteSelected:" : "joj 6/1/2020 11:44" } }
+		"openInWorld" : "DW 6/4/2020 17:39",
+		"pasteSelected:" : "joj 6/1/2020 11:44",
+		"recentClippings" : "DW 6/4/2020 17:49",
+		"storage" : "DW 6/4/2020 16:08",
+		"storage:" : "DW 6/4/2020 16:08" } }

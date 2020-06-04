@@ -4,8 +4,10 @@
 	"instance" : {
 		"addToAppsWorldMenu" : "DW 5/26/2020 19:54",
 		"clipboardChanged:from:" : "graf 5/30/2020 17:50",
+		"contextMenu" : "DW 6/4/2020 15:47",
+		"contextMenu:" : "DW 6/4/2020 15:47",
 		"destroy" : "graf 5/25/2020 22:04",
-		"initialize" : "DW 5/26/2020 19:54",
+		"initialize" : "DW 6/4/2020 15:51",
 		"removeFromWorldMenu" : "joj 5/26/2020 12:01",
 		"storage" : "graf 5/20/2020 19:48",
 		"storage:" : "graf 5/20/2020 19:48",
