@@ -1,9 +1,7 @@
 testing
 testSelectedClippingVisuallyHighlighted
-	| selectedItem index |
+	| index |
 	index := 1.
-	selectedItem := self rcclippings selectedClippingIndex: index.
-	self rcclippings addToClipboard: selectedItem.
-	self rcclippings selectRow: index.
-	self rcclippings selectionColor: Color blue.
+	self rcclippings copyBackToClipboard: index.
+	Transcript showln: (self rcclippings colorForRow: index).
 	self assert: ((self rcclippings colorForRow: index) = Color blue)

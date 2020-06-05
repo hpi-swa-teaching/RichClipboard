@@ -1,6 +1,9 @@
 testing
 testSelectedClippingCopiedToClipboard
 	| selected |
-	selected := self rcclippings selectedClippingIndex: 1.
-	self rcclippings addToClipboard: selected.
-	self assert: (selected = clipboard clipboardText)
+	selected := 1.
+	self rcclippings copyBackToClipboard: selected.
+	Transcript showln: (rcclippings clippings at: 1).
+	Transcript showln: clipboard clipboardText.
+	self assert: (rcclippings clippings at: 1) = 'test1'.
+	self assert: clipboard clipboardText = 'test1'

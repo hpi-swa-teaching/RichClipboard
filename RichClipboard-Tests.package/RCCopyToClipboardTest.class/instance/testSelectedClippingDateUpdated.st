@@ -1,8 +1,9 @@
 testing
 testSelectedClippingDateUpdated
-	| selected |
-	selected := self rcclippings selectedClippingIndex: 1.
-	self rcclippings addToClipboard: selected.
-	"self assert: (selected date = current date)"
+	| selected clippings |
+	clippings :=  self rcclippings.
+	selected := 2.
+	clippings copyBackToClipboard: selected.
+	self assert: ((clippings selectedClippingIndex: 1) = (clippings selectedClippingIndex: selected))
 
 	
