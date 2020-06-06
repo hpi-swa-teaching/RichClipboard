@@ -1,5 +1,5 @@
 testing
-testAppliesRegexFilterSortAlphabetically
+testAppliesSortAlphabetically
 	| clippingsList storage |
 	
 	storage := RCStorage new.

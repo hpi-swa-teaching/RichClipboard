@@ -1,5 +1,5 @@
 testing
-testAppliesRegexFilterSortByDate
+testAppliesSortByDate
 	| clippingsList storage |
 	
 	storage := RCStorage new.
