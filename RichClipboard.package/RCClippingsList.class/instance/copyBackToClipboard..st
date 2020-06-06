@@ -8,6 +8,6 @@ copyBackToClipboard: Index
 	"TODO: noch delete später implementieren"
 	self storage moveToFirst: selectedClipping.
 	
-	Clipboard clipboardText: selectedClipping
+	Clipboard clipboardText: selectedClipping.
 	
 	

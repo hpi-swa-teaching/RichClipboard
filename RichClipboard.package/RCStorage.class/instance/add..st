@@ -1,4 +1,4 @@
 storage
 add: clipboardEntry
-	self storageBackend addLast: clipboardEntry.
+	self storageBackend addFirst: clipboardEntry.
 	self triggerEvent: #addedEntry with: clipboardEntry
