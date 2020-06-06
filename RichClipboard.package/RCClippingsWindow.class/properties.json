@@ -10,7 +10,9 @@
 		"clippingsList",
 		"regexSearchBarVisible",
 		"regexSearchBarMorph",
-		"toolbarMorph" ],
+		"toolbarMorph",
+		"alphabeticSortInverted",
+		"dateSortInverted" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
 		 ],

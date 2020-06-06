@@ -1,0 +1,3 @@
+sort-alphabetically
+alphabeticSortButtonEnabled
+	^ true

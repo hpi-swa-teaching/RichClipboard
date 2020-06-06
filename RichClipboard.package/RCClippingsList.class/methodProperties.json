@@ -4,12 +4,17 @@
 	"instance" : {
 		"addedEntry:" : "graf 5/30/2020 16:44",
 		"applyRegexFilter:" : "graf 5/31/2020 17:36",
-		"clippings" : "graf 5/31/2020 17:34",
+		"applySort:" : "graf 6/6/2020 19:20",
+		"clippings" : "graf 6/6/2020 19:21",
 		"defaultColor" : "graf 5/25/2020 17:41",
 		"filterByRegex:" : "graf 5/31/2020 17:37",
 		"initialize" : "graf 5/30/2020 18:09",
 		"removeFilterByRegex" : "graf 5/30/2020 18:09",
 		"selectedClippingIndex" : "graf 5/30/2020 16:19",
 		"selectedClippingIndex:" : "graf 5/30/2020 16:19",
+		"sortByDate" : "graf 6/6/2020 19:51",
+		"sortByDateInverse" : "graf 6/6/2020 19:51",
+		"sortByName" : "graf 6/6/2020 19:58",
+		"sortByNameInverse" : "graf 6/6/2020 19:58",
 		"storage" : "siddeshkanth logonathan 5/25/2020 10:12",
 		"storage:" : "graf 5/31/2020 18:20" } }
