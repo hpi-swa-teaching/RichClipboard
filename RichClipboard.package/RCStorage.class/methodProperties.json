@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add:" : "DW 6/6/2020 10:49",
+		"add:" : "DW 6/6/2020 15:10",
 		"get:" : "graf 5/25/2020 22:01",
 		"getAll" : "graf 5/25/2020 22:01",
 		"initialize" : "graf 5/25/2020 20:53",
 		"isEmpty" : "graf 5/25/2020 22:01",
-		"moveToFirst:" : "DW 6/6/2020 11:24",
+		"remove:" : "DW 6/6/2020 15:25",
 		"size" : "graf 5/25/2020 22:01",
 		"storageBackend" : "graf 5/20/2020 19:34",
 		"storageBackend:" : "graf 5/20/2020 19:34" } }

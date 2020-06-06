@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"richClipboard",
 		"storage",
 		"rcclippings",
 		"clipboard" ],

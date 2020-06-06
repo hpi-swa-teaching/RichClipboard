@@ -5,7 +5,7 @@ testSendsNotificationOnAddedItem
 	storageItem :=  'Test1' .
 	receivedClipping := nil.
 	self storage
-		when: #addedEntry
+		when: #changedClipping 
 		send: #value:
 		to: [:clipping | receivedClipping := clipping].
 	self storage add: storageItem.

@@ -2,15 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clipboard" : "DW 6/1/2020 18:01",
-		"clipboard:" : "DW 6/1/2020 18:01",
 		"rcclippings" : "DW 6/1/2020 18:01",
 		"rcclippings:" : "DW 6/1/2020 18:01",
-		"richClipboard" : "DW 6/1/2020 18:00",
-		"richClipboard:" : "DW 6/1/2020 18:00",
-		"setUp" : "DW 6/1/2020 16:59",
-		"storage" : "DW 6/1/2020 18:01",
-		"storage:" : "DW 6/1/2020 18:01",
-		"testSelectedClippingCopiedToClipboard" : "DW 6/6/2020 11:42",
-		"testSelectedClippingDateUpdated" : "DW 6/6/2020 11:41",
-		"testSelectedClippingVisuallyHighlighted" : "DW 6/6/2020 10:55" } }
+		"setUp" : "DW 6/6/2020 15:48",
+		"testSelectedClippingCopiedToClipboard" : "DW 6/6/2020 15:46",
+		"testSelectedClippingRemoved" : "DW 6/6/2020 15:45" } }
