@@ -12,7 +12,8 @@
 		"regexSearchBarMorph",
 		"toolbarMorph",
 		"alphabeticSortInverted",
-		"dateSortInverted" ],
+		"dateSortInverted",
+		"privateModeActive" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
 		 ],

@@ -1,7 +1,7 @@
 initialize-release
 initialize
 	super initialize.
-	self setLabel: self class defaultLabel.
+	self updateWindowTitle.
 	self
 		clippingsList: (RCClippingsList newWithStorage: self storage).
 	self addClippingsList.
@@ -9,3 +9,4 @@ initialize
 	self addToToolbar: self createRegexSearchButton.
 	self addToToolbar: self createDateSortButton.
 	self addToToolbar: self createAlphabeticSortButton
+	self addToToolbar: self createPrivateModeButton
