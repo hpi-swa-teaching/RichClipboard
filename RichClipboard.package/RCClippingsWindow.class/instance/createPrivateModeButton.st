@@ -8,4 +8,5 @@ createPrivateModeButton
 				action: #togglePrivateMode
 				label: #privateModeButtonLabel.
 	button height: self class defaultBottomBarHeight - 4.
+	
 	^ button
