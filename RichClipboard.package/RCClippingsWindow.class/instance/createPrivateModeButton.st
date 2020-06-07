@@ -1,6 +1,7 @@
 private mode
 createPrivateModeButton
 	| button |
+	
 	button := PluggableButtonMorphPlus
 				on: self
 				getState: #privateModeButtonEnabled
