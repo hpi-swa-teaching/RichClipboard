@@ -8,5 +8,5 @@ initialize
 	self addToolbar.
 	self addToToolbar: self createRegexSearchButton.
 	self addToToolbar: self createDateSortButton.
-	self addToToolbar: self createAlphabeticSortButton
+	self addToToolbar: self createAlphabeticSortButton.
 	self addToToolbar: self createPrivateModeButton
