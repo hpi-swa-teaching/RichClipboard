@@ -1,4 +1,4 @@
-regex
+sort
 applySort: aCollection
 	" Private "
 	^ sortBlock ifNil: [ 

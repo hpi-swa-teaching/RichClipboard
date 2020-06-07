@@ -1,4 +1,4 @@
-accessing
+sort
 sortByNameInverse
 	sortBlock := [ :aCollection | 
 		(aCollection sorted: [ :a :b |
