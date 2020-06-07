@@ -1,14 +1,16 @@
 as yet unclassified
 recentClippings
 	| storage newStorageBackend |
+	
 	storage := self storage copy.
-	(storage getAll size > 0)
+	((storage getAll size) > 0)
 		ifTrue: [
 			(5 > storage getAll size)
 				ifTrue: [ newStorageBackend := storage getAll ]
 				ifFalse: [ newStorageBackend := storage get: 5]
-		] ifFalse: [ RCInvalidParameterError signal ].
+		] ifFalse: [ newStorageBackend := storage getAll ].
 	
 	storage storageBackend: newStorageBackend.
+	
 	^ storage
 	

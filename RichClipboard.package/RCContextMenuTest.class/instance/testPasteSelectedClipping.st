@@ -1,5 +1,7 @@
 testing
 testPasteSelectedClipping
-	| selected |
-	selected := clippingsList selected: 1.
-	self assert: selected = 2
+	| index |
+	
+	index := 1.
+	self clippingsList contextMenuIsOpen: true.
+	self shouldnt: [ self clippingsList selectedClippingIndex: index. ] raise: Error
