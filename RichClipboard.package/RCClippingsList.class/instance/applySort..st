@@ -1,6 +1,6 @@
 regex
 applySort: aCollection
-	"Private"
+	" Private "
 	^ sortBlock ifNil: [ 
 			aCollection 
 		] ifNotNil: [ 
