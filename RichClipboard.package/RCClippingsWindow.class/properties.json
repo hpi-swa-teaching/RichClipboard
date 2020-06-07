@@ -10,7 +10,8 @@
 		"clippingsList",
 		"regexSearchBarVisible",
 		"regexSearchBarMorph",
-		"toolbarMorph" ],
+		"toolbarMorph",
+		"privateModeActive" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
 		 ],
