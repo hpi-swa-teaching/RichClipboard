@@ -1,18 +1,19 @@
 {
-  "category": "RichClipboard-GUI",
-  "classinstvars": [],
-  "classvars": [],
-  "commentStamp": "DW 5/24/2020 16:52",
-  "instvars": [
-    "storage",
-    "clippingsList",
-    "regexSearchBarVisible",
-    "regexSearchBarMorph",
-    "toolbarMorph",
-    "privateModeActive"
-  ],
-  "name": "RCClippingsWindow",
-  "pools": [],
-  "super": "SystemWindow",
-  "type": "normal"
-}
+	"category" : "RichClipboard-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DW 5/24/2020 16:52",
+	"instvars" : [
+		"storage",
+		"clippingsList",
+		"regexSearchBarVisible",
+		"regexSearchBarMorph",
+		"toolbarMorph",
+		"privateModeActive" ],
+	"name" : "RCClippingsWindow",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

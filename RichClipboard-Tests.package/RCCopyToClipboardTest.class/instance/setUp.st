@@ -2,6 +2,7 @@ running
 setUp
 	storage := RCStorage new.
 	rcclippings := RCClippingsList newWithStorage: storage.
+	rcclippings canCopy.
 	clipboard := Clipboard new.
 	
 	storage add: 'test1'.

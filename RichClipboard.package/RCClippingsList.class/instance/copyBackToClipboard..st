@@ -4,8 +4,7 @@ copyBackToClipboard: Index
 	
 	selectedClipping := self clippings at: Index.
 	"TODO: Test auf Private Mode, nur wenn false, dann remove (Warten noch auf PR)"
-	self storage remove: selectedClipping.
-	
+	(self copyAllowed) ifTrue: [ self storage remove: selectedClipping. ].
 	Clipboard clipboardText: selectedClipping.
 	
 	

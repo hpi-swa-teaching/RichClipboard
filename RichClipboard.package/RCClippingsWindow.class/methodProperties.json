@@ -14,9 +14,10 @@
 		"createRegexSearchButton" : "joj 6/1/2020 10:13",
 		"delete" : "graf 5/25/2020 21:09",
 		"hideRegexSearchBar" : "joj 6/1/2020 10:11",
-		"initialize" : "joj 6/1/2020 16:21",
+		"initialize" : "DW 6/8/2020 18:39",
 		"openInWorld" : "graf 5/30/2020 17:47",
-		"privateModeActive" : "joj 6/1/2020 16:04",
+		"privateModeActive" : "DW 6/8/2020 18:34",
+		"privateModeActive:" : "DW 6/8/2020 18:33",
 		"privateModeButtonEnabled" : "joj 6/1/2020 15:58",
 		"privateModeButtonLabel" : "joj 6/1/2020 16:18",
 		"regexSearchBarVisible" : "graf 5/31/2020 17:25",
@@ -25,12 +26,8 @@
 		"showRegexSearchBar" : "joj 6/1/2020 10:15",
 		"storage" : "graf 5/25/2020 11:00",
 		"storage:" : "graf 5/31/2020 17:29",
-<<<<<<< HEAD
-		"toggleRegexSearch" : "joj 6/1/2020 10:15" } }
-=======
-		"togglePrivateMode" : "joj 6/1/2020 16:08",
+		"togglePrivateMode" : "DW 6/8/2020 18:28",
 		"toggleRegexSearch" : "joj 6/1/2020 10:15",
-		"turnOffPrivateMode" : "graf 6/1/2020 16:45",
-		"turnOnPrivateMode" : "graf 6/1/2020 16:45",
-		"updateWindowTitle" : "joj 6/1/2020 16:26" } }
->>>>>>> master
+		"turnOffPrivateMode" : "DW 6/8/2020 18:12",
+		"turnOnPrivateMode" : " 6/8/2020 17:56:26",
+		"updateWindowTitle" : " 6/8/2020 17:56:26" } }

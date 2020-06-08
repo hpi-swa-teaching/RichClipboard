@@ -1,9 +1,8 @@
 {
-  "class": {},
-  "instance": {
-    "testAppliesRegexFilter": "graf 5/31/2020 18:19",
-    "testRegexFilterRemovable": "graf 5/31/2020 18:21",
-    "testShowsAddedClippings": "graf 5/31/2020 18:01",
-    "testShowsInitalClippings": "graf 5/31/2020 18:01"
-  }
-}
+	"class" : {
+		 },
+	"instance" : {
+		"testAppliesRegexFilter" : "graf 5/31/2020 18:19",
+		"testRegexFilterRemovable" : "graf 5/31/2020 18:21",
+		"testShowsAddedClippings" : "graf 5/31/2020 18:01",
+		"testShowsInitalClippings" : "graf 5/31/2020 18:01" } }
