@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "graf 5/25/2020 20:58",
-		"storage" : "DW 5/20/2020 14:21",
-		"storage:" : "DW 5/20/2020 14:21",
-		"testCanAddItems" : "graf 5/25/2020 21:37",
-		"testEmptyStorageIsEmpty" : "DW 5/20/2020 14:34",
-		"testGetAllReturnsAllItems" : "graf 5/25/2020 21:37",
-		"testGetRaisesErrorOnInvalidInput" : "graf 5/25/2020 21:37",
-		"testGetReturnsFirstXItems" : "DW 6/6/2020 15:53",
-		"testNonEmptyStorageIsNotEmpty" : "DW 5/20/2020 14:34",
-		"testSendsNotificationOnAddedItem" : "DW 6/6/2020 15:54",
-		"testSizeReturnsNumberOfStoredElements" : "graf 5/25/2020 21:38" } }
+  "class": {},
+  "instance": {
+    "setUp": "graf 5/25/2020 20:58",
+    "storage": "DW 5/20/2020 14:21",
+    "storage:": "DW 5/20/2020 14:21",
+    "testCanAddItems": "graf 5/25/2020 21:37",
+    "testEmptyStorageIsEmpty": "DW 5/20/2020 14:34",
+    "testGetAllReturnsAllItems": "graf 5/25/2020 21:37",
+    "testGetRaisesErrorOnInvalidInput": "graf 5/25/2020 21:37",
+    "testGetReturnsLastXItems": "graf 5/25/2020 21:37",
+    "testNonEmptyStorageIsNotEmpty": "DW 5/20/2020 14:34",
+    "testSendsNotificationOnAddedItem": "graf 5/25/2020 21:38",
+    "testSizeReturnsNumberOfStoredElements": "graf 5/25/2020 21:38"
+  }
+}

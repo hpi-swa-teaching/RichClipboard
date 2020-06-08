@@ -1,14 +1,11 @@
 {
-	"category" : "RichClipboard",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"storageBackend" ],
-	"name" : "RCStorage",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+  "category": "RichClipboard",
+  "classinstvars": [],
+  "classvars": [],
+  "commentStamp": "",
+  "instvars": ["storageBackend", "privateModeActive"],
+  "name": "RCStorage",
+  "pools": [],
+  "super": "Object",
+  "type": "normal"
+}

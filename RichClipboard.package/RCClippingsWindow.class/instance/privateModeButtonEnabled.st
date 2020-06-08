@@ -1,0 +1,3 @@
+private mode
+privateModeButtonEnabled
+	^ true

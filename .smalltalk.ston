@@ -1,0 +1,15 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'RichClipboard',
+      #platforms : [ #squeak ],
+      #load : [ 'tests' ]
+    }
+  ],
+  #testing : {
+    #packages : [ 'RichClipboard-Tests' ],
+    #coverage : {
+      #packages : [ 'RichClipboard' ]
+    }
+  }
+}

@@ -1,7 +1,9 @@
 {
-	"class" : {
-		 },
-	"instance" : {
-		"testNewWithStorage" : "graf 5/25/2020 21:37",
-		"testOpenInWorld" : "graf 5/25/2020 21:36",
-		"testToggleSearchbar" : "graf 5/31/2020 18:25" } }
+  "class": {},
+  "instance": {
+    "testNewWithStorage": "graf 5/25/2020 21:37",
+    "testOpenInWorld": "graf 5/25/2020 21:36",
+    "testTogglePrivateMode": "joj 6/1/2020 15:48",
+    "testToggleSearchbar": "graf 5/31/2020 18:25"
+  }
+}

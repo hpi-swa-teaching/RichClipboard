@@ -1,13 +1,15 @@
 {
-	"class" : {
-		 },
-	"instance" : {
-		"add:" : "DW 6/6/2020 15:10",
-		"get:" : "graf 5/25/2020 22:01",
-		"getAll" : "graf 5/25/2020 22:01",
-		"initialize" : "graf 5/25/2020 20:53",
-		"isEmpty" : "graf 5/25/2020 22:01",
-		"remove:" : "DW 6/6/2020 15:25",
-		"size" : "graf 5/25/2020 22:01",
-		"storageBackend" : "graf 5/20/2020 19:34",
-		"storageBackend:" : "graf 5/20/2020 19:34" } }
+  "class": {},
+  "instance": {
+    "add:": "graf 6/1/2020 16:45",
+    "get:": "graf 5/25/2020 22:01",
+    "getAll": "graf 5/25/2020 22:01",
+    "initialize": "graf 6/1/2020 16:44",
+    "isEmpty": "graf 5/25/2020 22:01",
+    "privateModeActive": "graf 6/1/2020 16:43",
+    "privateModeActive:": "graf 6/1/2020 16:44",
+    "size": "graf 5/25/2020 22:01",
+    "storageBackend": "graf 5/20/2020 19:34",
+    "storageBackend:": "graf 5/20/2020 19:34"
+  }
+}

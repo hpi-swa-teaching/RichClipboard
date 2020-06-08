@@ -1,0 +1,3 @@
+accessing
+privateModeActive
+	^ privateModeActive

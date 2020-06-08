@@ -1,17 +1,18 @@
 {
-	"class" : {
-		"newWithStorage:" : "graf 5/25/2020 21:52" },
-	"instance" : {
-		"applyRegexFilter:" : "graf 5/31/2020 17:36",
-		"changedClipping:" : "DW 6/6/2020 15:10",
-		"clippings" : "graf 5/31/2020 17:34",
-		"clippingsAt:" : "DW 6/6/2020 11:05",
-		"copyBackToClipboard:" : "DW 6/6/2020 15:59",
-		"defaultColor" : "graf 5/25/2020 17:41",
-		"filterByRegex:" : "graf 5/31/2020 17:37",
-		"initialize" : "DW 6/6/2020 15:10",
-		"removeFilterByRegex" : "graf 5/30/2020 18:09",
-		"selectedClippingIndex" : "graf 5/30/2020 16:19",
-		"selectedClippingIndex:" : "DW 6/6/2020 15:33",
-		"storage" : "siddeshkanth logonathan 5/25/2020 10:12",
-		"storage:" : "graf 5/31/2020 18:20" } }
+  "class": {
+    "newWithStorage:": "graf 5/25/2020 21:52"
+  },
+  "instance": {
+    "addedEntry:": "graf 5/30/2020 16:44",
+    "applyRegexFilter:": "graf 5/31/2020 17:36",
+    "clippings": "graf 5/31/2020 17:34",
+    "defaultColor": "graf 5/25/2020 17:41",
+    "filterByRegex:": "graf 5/31/2020 17:37",
+    "initialize": "graf 5/30/2020 18:09",
+    "removeFilterByRegex": "graf 5/30/2020 18:09",
+    "selectedClippingIndex": "graf 5/30/2020 16:19",
+    "selectedClippingIndex:": "graf 5/30/2020 16:19",
+    "storage": "siddeshkanth logonathan 5/25/2020 10:12",
+    "storage:": "graf 5/31/2020 18:20"
+  }
+}
