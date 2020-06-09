@@ -2,8 +2,8 @@ private mode
 togglePrivateMode
 	self privateModeActive ifTrue: [
 		self turnOffPrivateMode.
-		self clippingsList canCopy.
+		self clippingsList isInPrivateMode: false.
 	] ifFalse: [
 		self turnOnPrivateMode.
-		self clippingsList cantCopy.
+		self clippingsList isInPrivateMode: true.
 	]

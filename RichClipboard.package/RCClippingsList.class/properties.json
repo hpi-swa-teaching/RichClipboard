@@ -8,7 +8,7 @@
 	"instvars" : [
 		"storage",
 		"regexFilter",
-		"copyAllowed",
+		"isInPrivateMode",
 		"sortBlock" ],
 	"name" : "RCClippingsList",
 	"pools" : [

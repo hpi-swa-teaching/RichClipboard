@@ -4,7 +4,7 @@ testSelectedClippingRemoved
 	
 	storage := RCStorage new.
 	clippingsList := RCClippingsList newWithStorage: storage.
-	clippingsList canCopy.
+	clippingsList isInPrivateMode: false.
 	
 	storage add: 'test1'.
 	storage add: 'test2'.

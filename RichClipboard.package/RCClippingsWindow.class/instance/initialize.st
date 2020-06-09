@@ -6,7 +6,7 @@ initialize
 		clippingsList: (RCClippingsList newWithStorage: self storage).
 	self privateModeActive: false.
 	self addClippingsList.
-	(self privateModeActive) ifFalse: [ self clippingsList canCopy ].
+	(self privateModeActive) ifFalse: [ self clippingsList isInPrivateMode: false ].
 	self addToolbar.
 	self addToToolbar: self createRegexSearchButton.
 	self addToToolbar: self createDateSortButton.
