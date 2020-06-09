@@ -1,3 +1,3 @@
-as yet unclassified
+settings
 defaultExtent
 	^ 200@200
