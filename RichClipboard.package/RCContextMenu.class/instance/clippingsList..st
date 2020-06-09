@@ -1,3 +1,3 @@
 accessing
-clippingsList: anObject
-	clippingsList := anObject
+clippingsList: anRCClippingsList
+	clippingsList := anRCClippingsList
