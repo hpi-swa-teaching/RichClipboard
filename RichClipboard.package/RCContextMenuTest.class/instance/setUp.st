@@ -1,7 +1,7 @@
 running
 setUp
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
+	self storage: RCStorage new.
+	self clippingsList: RCClippingsList newWithStorage: storage.
 	
 	storage add: '1'.
 	storage add: '2'.
