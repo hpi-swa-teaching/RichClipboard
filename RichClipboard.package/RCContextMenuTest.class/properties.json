@@ -1,0 +1,15 @@
+{
+	"category" : "RichClipboard-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"storage",
+		"clippingsList" ],
+	"name" : "RCContextMenuTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
