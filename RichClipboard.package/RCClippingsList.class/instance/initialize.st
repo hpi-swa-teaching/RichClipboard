@@ -6,6 +6,6 @@ initialize
 	regexFilter := nil.
 	
 	self storage 
-		when: #changedClipping
-		send: #changedClipping: 
+		when: #clippingsChanged
+		send: #clippingsChanged 
 		to: self

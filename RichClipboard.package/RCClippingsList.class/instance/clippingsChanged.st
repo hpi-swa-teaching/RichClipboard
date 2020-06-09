@@ -1,3 +1,3 @@
 events
-changedClipping: clipping
+clippingsChanged
 	self changed: #clippings

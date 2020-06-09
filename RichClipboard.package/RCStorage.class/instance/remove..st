@@ -1,4 +1,4 @@
 accessing
 remove: aClipping
 	self storageBackend remove: aClipping.
-	self triggerEvent: #changedClipping with: aClipping
+	self triggerEvent: #clippingsChanged
