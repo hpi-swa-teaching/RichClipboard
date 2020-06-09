@@ -1,7 +1,8 @@
 private mode
 turnOffPrivateMode
-	self privateModeActive ifTrue: [ 
-		self storage privateModeActive: false.
+	self privateModeActive ifTrue: [
 		privateModeActive := false.
+		self storage privateModeActive: false.
+		self clippingsList isInPrivateMode: false.
 		self updateWindowTitle
 	]

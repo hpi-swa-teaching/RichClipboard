@@ -4,4 +4,4 @@ get: entryAmount
 	entryAmount < 0 ifTrue: [ RCInvalidParameterError signal ].
 	entryAmount > self size ifTrue: [ RCOutOfBoundsError signal ].
 	
-	^ self storageBackend last: entryAmount
+	^ self storageBackend first: entryAmount

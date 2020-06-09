@@ -1,17 +1,17 @@
 {
-	"category" : "RichClipboard-GUI",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		"storage",
-		"regexFilter",
-		"contextMenuIsOpen",
-		"sortBlock" ],
-	"name" : "RCClippingsList",
-	"pools" : [
-		 ],
-	"super" : "LazyListMorph",
-	"type" : "normal" }
+  "category": "RichClipboard-GUI",
+  "classinstvars": [],
+  "classvars": [],
+  "commentStamp": "",
+  "instvars": [
+    "storage",
+    "regexFilter",
+    "isInPrivateMode",
+    "contextMenuIsOpen",
+    "sortBlock"
+  ],
+  "name": "RCClippingsList",
+  "pools": [],
+  "super": "LazyListMorph",
+  "type": "normal"
+}

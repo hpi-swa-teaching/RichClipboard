@@ -4,8 +4,7 @@
 	"instance" : {
 		"testNewWithStorage" : "graf 5/25/2020 21:37",
 		"testOpenInWorld" : "graf 5/25/2020 21:36",
+		"testTogglePrivateMode" : "joj 6/1/2020 15:48",
 		"testToggleSearchbar" : "graf 5/31/2020 18:25",
 		"testToggleSortAlphabetically" : "graf 6/6/2020 20:06",
-		"testToggleSortByDate" : "graf 6/6/2020 20:06",
-		"testTogglePrivateMode" : "joj 6/1/2020 15:48",
-		"testToggleSearchbar" : "graf 5/31/2020 18:25" } }
+		"testToggleSortByDate" : "graf 6/6/2020 20:06" } }
