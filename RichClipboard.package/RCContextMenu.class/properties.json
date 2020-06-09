@@ -7,11 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"storage",
-		"regexFilter",
-		"contextMenuIsOpen",
-		"sortBlock" ],
-	"name" : "RCClippingsList",
+		"clippingsList" ],
+	"name" : "RCContextMenu",
 	"pools" : [
 		 ],
-	"super" : "LazyListMorph",
+	"super" : "SystemWindow",
 	"type" : "normal" }

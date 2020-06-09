@@ -7,7 +7,6 @@ initialize
 		when: #contentChanged
 		send: #clipboardChanged:from:
 		to: self.
-	
 	self window: (RCClippingsWindow newWithStorage: self storage).
 	self window
 		when: #delete
