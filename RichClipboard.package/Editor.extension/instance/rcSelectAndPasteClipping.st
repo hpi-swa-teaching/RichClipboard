@@ -1,5 +1,5 @@
 *RichClipboard
-selectedClipping
+rcSelectAndPasteClipping
 	| r storage |
 	
 	storage := RCStorage new.
@@ -9,10 +9,10 @@ selectedClipping
 	r := RCContextMenu newWithStorage: storage.
 	r openInWorld.
 	
-	r clippingsList when: #clippingUpdated
+	r clippingsList when: #requestPasteClipping
 		send: #delete
 		to: r.
 	
-	r clippingsList when: #clippingUpdated
-		send: #pasteFromContextMenu:
+	r clippingsList when: #requestPasteClipping
+		send: #pasteFromRCContextMenu:
 		to: self

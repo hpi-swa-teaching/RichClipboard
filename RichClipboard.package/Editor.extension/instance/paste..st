@@ -4,6 +4,6 @@ paste: aKeyboardEvent
 
 	self insertAndCloseTypeIn.
 	"self paste."
-	self selectedClipping.
+	self rcSelectAndPasteClipping.
 	
 	^true

@@ -1,16 +1,15 @@
-as yet unclassified
-recentClippings
+accessing
+newStorageForRecentClippings: aNumber
 	| storage newStorageBackend |
 	
-	storage := self storage copy.
+	storage := self copy.
 	((storage getAll size) > 0)
 		ifTrue: [
-			(5 > storage getAll size)
+			(aNumber > storage getAll size)
 				ifTrue: [ newStorageBackend := storage getAll ]
-				ifFalse: [ newStorageBackend := storage get: 5]
+				ifFalse: [ newStorageBackend := storage get: aNumber]
 		] ifFalse: [ newStorageBackend := storage getAll ].
 	
 	storage storageBackend: newStorageBackend.
 	
 	^ storage
-	
