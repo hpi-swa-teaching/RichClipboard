@@ -8,4 +8,4 @@ setUp
 	storage add: '3'.
 	storage add: '4'.
 	storage add: '5'.
-	storage add: '6'.
+	storage add: '6'
