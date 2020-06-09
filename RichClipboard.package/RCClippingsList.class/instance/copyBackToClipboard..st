@@ -1,10 +1,8 @@
 accessing
-copyBackToClipboard: Index
+copyBackToClipboard: anIndex
 	| selectedClipping |
 	
-	selectedClipping := self clippings at: Index.
+	selectedClipping := self clippings at: anIndex.
 	"TODO: Test auf Private Mode, nur wenn false, dann remove (Warten noch auf PR)"
 	(self isInPrivateMode) ifFalse: [ self storage remove: selectedClipping. ].
-	Clipboard clipboardText: selectedClipping.
-	
-	
+	Clipboard clipboardText: selectedClipping
