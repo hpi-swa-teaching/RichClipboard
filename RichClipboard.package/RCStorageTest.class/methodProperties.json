@@ -9,7 +9,7 @@
 		"testEmptyStorageIsEmpty" : "DW 5/20/2020 14:34",
 		"testGetAllReturnsAllItems" : "graf 5/25/2020 21:37",
 		"testGetRaisesErrorOnInvalidInput" : "graf 5/25/2020 21:37",
-		"testGetReturnsFirstXItems" : " 6/8/2020 17:52:47",
+		"testGetReturnsFirstXItems" : "6/8/2020 17:52:47",
 		"testNonEmptyStorageIsNotEmpty" : "DW 5/20/2020 14:34",
 		"testSendsNotificationOnAddedItem" : "graf 5/25/2020 21:38",
 		"testSizeReturnsNumberOfStoredElements" : "graf 5/25/2020 21:38" } }
