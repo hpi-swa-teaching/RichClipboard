@@ -4,4 +4,5 @@ clippings
 	
 	clippings := self storage getAll.
 	self applyRegexFilter: clippings.
-	^ clippings
+	
+	^ self applySort: clippings

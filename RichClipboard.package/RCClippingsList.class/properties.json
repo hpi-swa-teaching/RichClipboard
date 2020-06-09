@@ -8,7 +8,8 @@
 	"instvars" : [
 		"storage",
 		"regexFilter",
-		"contextMenuIsOpen" ],
+		"contextMenuIsOpen",
+		"sortBlock" ],
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],
