@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"storage",
-		"regexFilter" ],
+		"regexFilter",
+		"sortBlock" ],
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],
