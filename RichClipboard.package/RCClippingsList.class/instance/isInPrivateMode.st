@@ -1,3 +1,3 @@
 accessing
 isInPrivateMode
-	^ isInPrivateMode
+	^ isInPrivateMode ifNil: [ false ]

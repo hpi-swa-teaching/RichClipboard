@@ -10,6 +10,4 @@ initialize
 	self addToToolbar: self createRegexSearchButton.
 	self addToToolbar: self createDateSortButton.
 	self addToToolbar: self createAlphabeticSortButton.
-	self addToToolbar: self createPrivateModeButton.
-	
-	self turnOffPrivateMode
+	self addToToolbar: self createPrivateModeButton
