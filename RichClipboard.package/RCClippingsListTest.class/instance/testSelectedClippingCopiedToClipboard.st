@@ -13,6 +13,6 @@ testSelectedClippingCopiedToClipboard
 
 	selected := 1.
 	clippingsList copyBackToClipboard: selected.
-	self assert: Clipboard default clipboardText = testWord.
+	self assert: (Clipboard default clipboardText = testWord).
 	
 	Clipboard default clipboardText: priorClipping
