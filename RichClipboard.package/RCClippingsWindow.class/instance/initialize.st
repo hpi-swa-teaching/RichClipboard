@@ -9,6 +9,6 @@ initialize
 	(self privateModeActive) ifFalse: [ self clippingsList canCopy ].
 	self addToolbar.
 	self addToToolbar: self createRegexSearchButton.
+	self addToToolbar: self createDateSortButton.
+	self addToToolbar: self createAlphabeticSortButton.
 	self addToToolbar: self createPrivateModeButton
-	
-	
