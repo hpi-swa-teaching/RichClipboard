@@ -10,6 +10,6 @@ testAppliesSortByDate
 	storage add: 'ahfghbc'.
 	
 	clippingsList sortByDate.
-	self assert: (clippingsList clippings hasEqualElements: { 'abc' . 'adsfabc' . 'ahfghbc' }).
+	self assert: (clippingsList clippings hasEqualElements: { 'ahfghbc' . 'adsfabc' . 'abc' }).
 	clippingsList sortByDateInverse.
-	self assert: (clippingsList clippings hasEqualElements: { 'ahfghbc' . 'adsfabc' . 'abc' })
+	self assert: (clippingsList clippings hasEqualElements: { 'abc' . 'adsfabc' . 'ahfghbc' })
