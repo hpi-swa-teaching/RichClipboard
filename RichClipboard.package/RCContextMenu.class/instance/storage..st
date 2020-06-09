@@ -1,3 +1,3 @@
 accessing
-storage: anObject
-	storage := anObject
+storage: anRCStorage
+	storage := anRCStorage
