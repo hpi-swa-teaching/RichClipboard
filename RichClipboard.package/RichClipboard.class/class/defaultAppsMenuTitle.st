@@ -1,0 +1,3 @@
+settings
+defaultAppsMenuTitle
+	^ 'Rich Clipboard'

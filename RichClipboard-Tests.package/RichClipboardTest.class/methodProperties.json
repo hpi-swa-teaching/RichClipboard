@@ -6,4 +6,7 @@
 		"richClipboard:" : "graf 5/20/2020 19:40",
 		"setUp" : "graf 5/20/2020 19:41",
 		"tearDown" : "graf 5/20/2020 19:41",
-		"testClippingIsAddedToClipboard" : "graf 5/25/2020 21:39" } }
+		"testClippingIsAddedToClipboard" : "graf 5/25/2020 21:39",
+		"testPersistsClippingsAfterWindowClosed" : "graf 6/18/2020 16:38",
+		"testReturnsDefaultInstance" : "graf 6/18/2020 15:52",
+		"testStaysInAppsMenuAfterWindowClosed" : "graf 6/18/2020 16:14" } }
