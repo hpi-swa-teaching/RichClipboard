@@ -2,16 +2,17 @@
 	"class" : {
 		"default" : "graf 6/18/2020 16:48",
 		"defaultAppsMenuTitle" : "graf 6/18/2020 16:33",
-		"newTestInstance" : "graf 6/18/2020 16:52" },
+		"newTestInstance" : "graf 6/18/2020 16:52",
+		"resetDefaultInstance" : "graf 6/18/2020 17:50" },
 	"instance" : {
 		"addToAppsWorldMenu" : "graf 6/18/2020 16:33",
 		"clipboardChanged:from:" : "graf 5/30/2020 17:50",
 		"destroy" : "graf 6/18/2020 16:54",
-		"initialize" : "graf 6/18/2020 16:53",
-		"isTestInstance" : "graf 6/18/2020 16:53",
+		"initialize" : "graf 6/18/2020 17:52",
+		"isTestInstance" : "graf 6/18/2020 17:46",
 		"makeTestInstance" : "graf 6/18/2020 16:52",
 		"openInWorld" : "graf 6/18/2020 16:28",
 		"openWindows" : "graf 6/18/2020 15:59",
-		"removeFromWorldMenu" : "graf 6/18/2020 16:47",
+		"removeFromWorldMenu" : "graf 6/18/2020 18:02",
 		"storage" : "graf 5/20/2020 19:48",
 		"windowClosed:" : "graf 6/18/2020 16:04" } }

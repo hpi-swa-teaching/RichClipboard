@@ -13,5 +13,6 @@ testPersistsClippingsAfterWindowClosed
 	window2 := richClipboard2 openInWorld.
 	self assert: window2 clippingsList clippings first = 'bli bla bleb'.
 	self assert: window2 clippingsList clippings second = 'bla bla bla'.
+	window2 delete.
 	storage1 remove: 'bla bla bla'.
 	storage1 remove: 'bli bla bleb'

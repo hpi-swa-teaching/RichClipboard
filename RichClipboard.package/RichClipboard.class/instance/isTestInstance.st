@@ -1,3 +1,3 @@
 accessing
 isTestInstance
-	^ self isTestInstance ifNil: [ false ]
+	^ isTestInstance ifNil: [ false ]

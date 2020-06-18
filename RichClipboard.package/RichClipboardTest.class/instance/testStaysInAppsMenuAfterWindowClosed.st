@@ -10,4 +10,4 @@ testStaysInAppsMenuAfterWindowClosed
 		entry first = RichClipboard defaultAppsMenuTitle
 	].
 
-	self assert: richClipboardAppsMenuEntry isNil not
+	self assert: richClipboardAppsMenuEntry isEmpty not
