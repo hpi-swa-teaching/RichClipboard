@@ -1,18 +1,19 @@
 {
 	"class" : {
 		"default" : "graf 6/18/2020 16:48",
-		"defaultAppsMenuTitle" : "graf 6/18/2020 16:33",
+		"defaultAppsMenuTitle:" : "graf 6/20/2020 16:46",
 		"newTestInstance" : "graf 6/18/2020 16:52",
-		"resetDefaultInstance" : "graf 6/18/2020 17:50" },
+		"resetDefaultInstance" : "graf 6/20/2020 12:12" },
 	"instance" : {
-		"addToAppsWorldMenu" : "graf 6/18/2020 16:33",
+		"addToAppsWorldMenu" : "graf 6/20/2020 16:45",
 		"clipboardChanged:from:" : "graf 5/30/2020 17:50",
-		"destroy" : "graf 6/18/2020 16:54",
-		"initialize" : "graf 6/18/2020 17:52",
+		"destroy" : "graf 6/20/2020 16:42",
+		"initialize" : "graf 6/20/2020 16:07",
 		"isTestInstance" : "graf 6/18/2020 17:46",
-		"makeTestInstance" : "graf 6/18/2020 16:52",
-		"openInWorld" : "graf 6/18/2020 16:28",
+		"makeTestInstance" : "graf 6/20/2020 15:59",
+		"openInWorld" : "graf 6/20/2020 16:07",
 		"openWindows" : "graf 6/18/2020 15:59",
-		"removeFromWorldMenu" : "graf 6/18/2020 18:02",
+		"removeFromWorldMenu" : "graf 6/20/2020 16:46",
 		"storage" : "graf 5/20/2020 19:48",
+		"systemClipboard" : "graf 6/20/2020 16:13",
 		"windowClosed:" : "graf 6/18/2020 16:04" } }

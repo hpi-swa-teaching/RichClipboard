@@ -1,13 +1,13 @@
 testing
 testStaysInAppsMenuAfterWindowClosed
-	| richClipboard window richClipboardAppsMenuEntry |
+	| window richClipboardAppsMenuEntry |
 	
-	richClipboard := RichClipboard default.
+	richClipboard addToAppsWorldMenu.
 	window := richClipboard openInWorld.
 	window delete.
 	
 	richClipboardAppsMenuEntry := TheWorldMenu registry select: [ :entry |
-		entry first = RichClipboard defaultAppsMenuTitle
+		entry first = (RichClipboard defaultAppsMenuTitle: true)
 	].
 
 	self assert: richClipboardAppsMenuEntry isEmpty not

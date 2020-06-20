@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAppliesRegexFilter" : "graf 5/31/2020 18:19",
-		"testAppliesSortAlphabetically" : "graf 6/6/2020 20:17",
-		"testAppliesSortByDate" : "graf 6/9/2020 16:15",
-		"testRegexFilterRemovable" : "graf 5/31/2020 18:21",
-		"testSelectedClippingCopiedToClipboard" : "graf 6/18/2020 16:45",
-		"testSelectedClippingRemoved" : "graf 6/9/2020 16:45",
-		"testShowsAddedClippings" : "graf 5/31/2020 18:01",
-		"testShowsInitalClippings" : "graf 5/31/2020 18:01" } }
+		"setUp" : "graf 6/20/2020 16:18",
+		"testAppliesRegexFilter" : "graf 6/20/2020 16:21",
+		"testAppliesSortAlphabetically" : "graf 6/20/2020 16:18",
+		"testAppliesSortByDate" : "graf 6/20/2020 16:18",
+		"testRegexFilterRemovable" : "graf 6/20/2020 16:19",
+		"testSelectedClippingCopiedToClipboard" : "graf 6/20/2020 16:20",
+		"testSelectedClippingRemoved" : "graf 6/20/2020 16:20",
+		"testShowsAddedClippings" : "graf 6/20/2020 16:21",
+		"testShowsInitalClippings" : "graf 6/20/2020 16:21" } }

@@ -1,10 +1,5 @@
 testing
-testAppliesRegexFilter
-	| clippingsList storage |
-	
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
-	
+testAppliesRegexFilter		
 	storage add: 'abc'.
 	storage add: 'ade'.
 	storage add: '...'.

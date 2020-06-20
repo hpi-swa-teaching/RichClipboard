@@ -1,13 +1,14 @@
 *RichClipboard
 rcSelectAndPasteClipping
-	| r |
-	r := RCContextMenu newWithStorage: (RichClipboard default storage).
-	r openInWorld.
+	| contextMenu |
+	contextMenu := RCContextMenu newWithStorage: (RichClipboard default storage) 
+												andSystemClipboard: Clipboard default.
+	contextMenu openInWorld.
 	
-	r clippingsList when: #requestPasteClipping
+	contextMenu clippingsList when: #requestPasteClipping
 		send: #delete
-		to: r.
+		to: contextMenu.
 	
-	r clippingsList when: #requestPasteClipping
+	contextMenu clippingsList when: #requestPasteClipping
 		send: #pasteFromRCContextMenu:
 		to: self

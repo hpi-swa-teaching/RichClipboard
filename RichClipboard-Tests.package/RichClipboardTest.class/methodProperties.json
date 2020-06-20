@@ -2,12 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"richClipboard" : "graf 5/20/2020 19:40",
-		"richClipboard:" : "graf 5/20/2020 19:40",
-		"setUp" : "graf 5/20/2020 19:41",
-		"tearDown" : "graf 5/20/2020 19:41",
-		"testClippingIsAddedToClipboard" : "graf 5/25/2020 21:39",
-		"testPersistsClippingsAfterWindowClosed" : "graf 6/18/2020 17:47",
-		"testRemovesFromWorldMenu" : "graf 6/18/2020 18:03",
-		"testReturnsDefaultInstance" : "graf 6/18/2020 15:52",
-		"testStaysInAppsMenuAfterWindowClosed" : "graf 6/18/2020 18:03" } }
+		"setUp" : "graf 6/20/2020 16:33",
+		"tearDown" : "graf 6/20/2020 16:33",
+		"testClippingIsAddedToClipboard" : "graf 6/20/2020 16:34",
+		"testIsAddedToWorldMenu" : "graf 6/20/2020 16:47",
+		"testPersistsClippingsAfterWindowClosed" : "graf 6/20/2020 16:34",
+		"testRemovesFromWorldMenu" : "graf 6/20/2020 16:48",
+		"testReturnsDefaultInstance" : "graf 6/20/2020 15:30",
+		"testStaysInAppsMenuAfterWindowClosed" : "graf 6/20/2020 16:48" } }

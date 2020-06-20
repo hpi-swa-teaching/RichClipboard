@@ -2,11 +2,9 @@ testing
 testRemovesFromWorldMenu
 	| richClipboardAppsMenuEntry |
 
-	RichClipboard default removeFromWorldMenu.	
-
+	richClipboard addToAppsWorldMenu.
+	richClipboard removeFromWorldMenu.
 	richClipboardAppsMenuEntry := TheWorldMenu registry select: [ :entry |
-		entry first = RichClipboard defaultAppsMenuTitle
+		entry first = (RichClipboard defaultAppsMenuTitle: true)
 	].
 	self assert: richClipboardAppsMenuEntry isEmpty.
-	
-	RichClipboard default addToAppsWorldMenu

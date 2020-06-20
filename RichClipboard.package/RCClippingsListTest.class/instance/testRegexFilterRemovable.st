@@ -1,10 +1,5 @@
 testing
 testRegexFilterRemovable
-	| clippingsList storage |
-	
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
-	
 	storage add: 'abc'.
 	storage add: 'ade'.
 	storage add: '...'.

@@ -1,7 +1,9 @@
 running
 setUp
+	systemClipboard := RCSystemClipboardNullObject new.
 	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
+	clippingsList := RCClippingsList newWithStorage: storage
+																	andSystemClipboard: systemClipboard.
 	
 	storage add: '1'.
 	storage add: '2'.

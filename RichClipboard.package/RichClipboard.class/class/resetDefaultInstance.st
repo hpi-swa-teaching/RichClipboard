@@ -1,4 +1,5 @@
 instance creation
 resetDefaultInstance
 	self default destroy.
-	DefaultInstance := nil
+	DefaultInstance := nil.
+	^ self default
