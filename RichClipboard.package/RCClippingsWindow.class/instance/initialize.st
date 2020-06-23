@@ -7,6 +7,7 @@ initialize
 		
 	self addClippingsList.
 	self addToolbar.
+	self addToToolbar: self createClearAllButton.
 	self addToToolbar: self createRegexSearchButton.
 	self addToToolbar: self createDateSortButton.
 	self addToToolbar: self createAlphabeticSortButton.
