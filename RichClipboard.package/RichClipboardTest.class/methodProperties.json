@@ -4,9 +4,9 @@
 	"instance" : {
 		"setUp" : "graf 6/20/2020 16:33",
 		"tearDown" : "graf 6/20/2020 16:33",
-		"testClippingIsAddedToClipboard" : "graf 6/20/2020 16:34",
+		"testClippingIsAddedToClipboard" : "siddeshkanth logonathan 6/27/2020 11:44",
 		"testIsAddedToWorldMenu" : "graf 6/20/2020 16:47",
-		"testPersistsClippingsAfterWindowClosed" : "siddeshkanth logonathan 6/27/2020 09:21",
+		"testPersistsClippingsAfterWindowClosed" : "siddeshkanth logonathan 6/27/2020 11:50",
 		"testRemovesFromWorldMenu" : "siddeshkanth logonathan 6/27/2020 09:22",
 		"testReturnsDefaultInstance" : "graf 6/20/2020 15:30",
 		"testStaysInAppsMenuAfterWindowClosed" : "graf 6/20/2020 16:48" } }

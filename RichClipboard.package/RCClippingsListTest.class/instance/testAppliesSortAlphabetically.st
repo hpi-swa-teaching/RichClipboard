@@ -5,6 +5,6 @@ testAppliesSortAlphabetically
 			add: 'B'.
 	
 	clippingsList sortByName.
-	self assert: (clippingsList clippings hasEqualElements: { 'a' . 'B' . 'c' }).
+	self assert: (clippingsList clippingsAsStrings hasEqualElements: { 'a' . 'B' . 'c' }).
 	clippingsList sortByNameInverse.
-	self assert: (clippingsList clippings hasEqualElements: { 'c' . 'B' . 'a' })
+	self assert: (clippingsList clippingsAsStrings hasEqualElements: { 'c' . 'B' . 'a' })
