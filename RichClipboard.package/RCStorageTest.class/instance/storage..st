@@ -1,3 +1,3 @@
 accessing
-storage: aRCStorage
-	storage := aRCStorage
+storage: anRCStorage
+	storage := anRCStorage

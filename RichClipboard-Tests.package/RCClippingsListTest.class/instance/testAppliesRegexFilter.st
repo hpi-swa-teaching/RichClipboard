@@ -1,8 +1,8 @@
 testing
 testAppliesRegexFilter		
-	storage add: 'abc'.
-	storage add: 'ade'.
-	storage add: '...'.
+	storage add: 'abc';
+			add: 'ade';
+			add: '...'.
 	
 	clippingsList filterByRegex: '.*'.
 	self assert: (clippingsList clippings hasEqualElements: { '...' . 'ade' . 'abc'}).

@@ -2,4 +2,4 @@
 paste: aKeyboardEvent 
 	self rcSelectAndPasteClipping.
 	
-	^true
+	^ true

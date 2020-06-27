@@ -1,9 +1,9 @@
 testing
 testRegexFilterRemovable
-	storage add: 'abc'.
-	storage add: 'ade'.
-	storage add: '...'.
+	storage add: 'abc';
+			add: 'ade';
+			add: '...'.
 	
-	clippingsList filterByRegex: 'nada'.
-	clippingsList removeFilterByRegex.
+	clippingsList filterByRegex: 'nada';
+				  removeFilterByRegex.
 	self assert: clippingsList clippings size = 3

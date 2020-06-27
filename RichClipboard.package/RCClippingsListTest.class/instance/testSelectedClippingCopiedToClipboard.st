@@ -7,4 +7,4 @@ testSelectedClippingCopiedToClipboard
 	selected := 1.
 	
 	clippingsList copyBackToClipboard: selected.
-	self assert: (systemClipboard clipboardText string = 'abcdasfdas34e').
+	self assert: (systemClipboard clipboardText string = 'abcdasfdas34e')

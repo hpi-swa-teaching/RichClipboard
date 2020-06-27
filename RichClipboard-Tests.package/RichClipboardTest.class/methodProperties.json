@@ -6,7 +6,7 @@
 		"tearDown" : "graf 6/20/2020 16:33",
 		"testClippingIsAddedToClipboard" : "graf 6/20/2020 16:34",
 		"testIsAddedToWorldMenu" : "graf 6/20/2020 16:47",
-		"testPersistsClippingsAfterWindowClosed" : "graf 6/20/2020 16:34",
-		"testRemovesFromWorldMenu" : "graf 6/20/2020 16:48",
+		"testPersistsClippingsAfterWindowClosed" : "siddeshkanth logonathan 6/27/2020 09:21",
+		"testRemovesFromWorldMenu" : "siddeshkanth logonathan 6/27/2020 09:22",
 		"testReturnsDefaultInstance" : "graf 6/20/2020 15:30",
 		"testStaysInAppsMenuAfterWindowClosed" : "graf 6/20/2020 16:48" } }

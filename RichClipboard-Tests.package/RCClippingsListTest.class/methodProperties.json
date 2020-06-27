@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "graf 6/20/2020 16:18",
-		"testAppliesRegexFilter" : "graf 6/20/2020 16:21",
-		"testAppliesSortAlphabetically" : "graf 6/20/2020 16:18",
-		"testAppliesSortByDate" : "graf 6/20/2020 16:18",
-		"testRegexFilterRemovable" : "graf 6/20/2020 16:19",
-		"testSelectedClippingCopiedToClipboard" : "graf 6/20/2020 16:20",
+		"testAppliesRegexFilter" : "siddeshkanth logonathan 6/27/2020 09:30",
+		"testAppliesSortAlphabetically" : "siddeshkanth logonathan 6/27/2020 09:31",
+		"testAppliesSortByDate" : "siddeshkanth logonathan 6/27/2020 09:31",
+		"testRegexFilterRemovable" : "siddeshkanth logonathan 6/27/2020 09:33",
+		"testSelectedClippingCopiedToClipboard" : "siddeshkanth logonathan 6/27/2020 09:23",
 		"testSelectedClippingRemoved" : "graf 6/20/2020 16:20",
 		"testShowsAddedClippings" : "graf 6/20/2020 16:21",
 		"testShowsInitalClippings" : "graf 6/20/2020 16:21" } }

@@ -2,4 +2,4 @@
 pasteFromRCContextMenu: selectedClipping
 	self insertAndCloseTypeIn.
 	self replace: self selectionInterval with: selectedClipping and:
-		[self selectAt: self pointIndex]
+		[ self selectAt: self pointIndex s]

@@ -1,8 +1,8 @@
 testing
 testAppliesSortAlphabetically
-	storage add: 'a'.
-	storage add: 'c'.
-	storage add: 'B'.
+	storage add: 'a';
+			add: 'c';
+			add: 'B'.
 	
 	clippingsList sortByName.
 	self assert: (clippingsList clippings hasEqualElements: { 'a' . 'B' . 'c' }).

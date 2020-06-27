@@ -13,5 +13,5 @@ initialize
 	].
 
 	self systemClipboard when: #contentChanged
-												send: #clipboardChanged:from:
-												to: self.
+						   	send: #clipboardChanged:from:
+							to: self
