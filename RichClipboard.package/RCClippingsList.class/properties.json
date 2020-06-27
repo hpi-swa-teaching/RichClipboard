@@ -9,6 +9,7 @@
 		"storage",
 		"systemClipboard",
 		"regexFilter",
+		"lastEventWasMouseEvent",
 		"isInPrivateMode",
 		"contextMenuIsOpen",
 		"sortBlock" ],
