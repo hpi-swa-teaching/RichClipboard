@@ -1,3 +1,3 @@
 running
 setUp
-	self richClipboard: RichClipboard new
+	richClipboard := RichClipboard newTestInstance

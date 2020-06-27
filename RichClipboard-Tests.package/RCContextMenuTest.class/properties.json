@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"storage",
-		"clippingsList" ],
+		"clippingsList",
+		"systemClipboard" ],
 	"name" : "RCContextMenuTest",
 	"pools" : [
 		 ],

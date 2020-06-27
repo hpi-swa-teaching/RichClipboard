@@ -1,0 +1,14 @@
+{
+	"category" : "RichClipboard-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clippings" ],
+	"name" : "RCSystemClipboardNullObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

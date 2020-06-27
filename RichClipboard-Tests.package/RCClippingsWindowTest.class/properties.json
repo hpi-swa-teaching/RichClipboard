@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"systemClipboard",
+		"storage",
+		"window" ],
 	"name" : "RCClippingsWindowTest",
 	"pools" : [
 		 ],

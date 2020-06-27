@@ -1,3 +1,3 @@
 settings
 defaultExtent
-	^ 400@400
+	^ 500@400
