@@ -1,8 +1,8 @@
 initialize-release
 initialize
 	super initialize.
-	
-	self updateWindowTitle.
+	self currentSortMode: ''.
+	self setDefaultWindowTitle.
 	self clippingsList: (RCClippingsList newWithStorage: self storage 
 																			andSystemClipboard: systemClipboard).
 		
