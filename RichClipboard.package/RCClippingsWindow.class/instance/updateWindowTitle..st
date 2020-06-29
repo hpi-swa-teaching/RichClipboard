@@ -1,12 +1,12 @@
 visual properties
 updateWindowTitle: aString
 	| title |
-	
-	title := self windowTitle. 
+
+	self currentSortMode: aString.
 	(self privateModeActive) 
 		ifTrue: [self windowTitle: self class defaultLabel, ' (private mode)']
 		ifFalse: [self windowTitle: self class defaultLabel].
-		
-	self currentSortMode: aString.
+
+	title := self windowTitle.	
 	self windowTitle: title, aString.
 	self setLabel: self windowTitle
