@@ -4,6 +4,6 @@ turnOffPrivateMode
 		privateModeActive := false.
 		self storage privateModeActive: false.
 		self clippingsList isInPrivateMode: false. 
-		self windowTitle: self class defaultLabel.
-		self updateWindowTitle: self currentSortMode
+		self privateModeActive: false.
+		self updateWindowTitle.
 	]

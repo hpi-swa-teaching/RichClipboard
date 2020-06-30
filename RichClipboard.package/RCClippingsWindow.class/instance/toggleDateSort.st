@@ -3,11 +3,13 @@ toggleDateSort
 	self dateSortInverted ifTrue: [ 
 		dateSortInverted := false.
 		self clippingsList sortByDate. 
-		self updateWindowTitle: ' (new-old)'
+		self currentSortMode: ' (new-old)'.
+		self updateWindowTitle.
 	] ifFalse: [
 		dateSortInverted := true.
 		self clippingsList sortByDateInverse. 
-		self updateWindowTitle: ' (old-new)'
+		self currentSortMode: ' (old-new)'.
+		self updateWindowTitle.
 	].
 	self changed: #dateSortButtonLabel.
 	self fixHeightOfToolbarButtons

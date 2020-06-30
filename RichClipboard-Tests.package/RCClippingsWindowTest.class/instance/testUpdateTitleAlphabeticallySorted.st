@@ -1,11 +1,8 @@
 testing
 testUpdateTitleAlphabeticallySorted
-	| updatedLabel |
+	window toggleAlphabeticSort.
+	Transcript show: window label.
+	self assert: window label = 'ReichesKlammerBrett (z-a)'.
 	
 	window toggleAlphabeticSort.
-	updatedLabel := window windowTitle.
-	self assert: window label = updatedLabel.
-	
-	window toggleAlphabeticSort.
-	updatedLabel := window windowTitle.
-	self assert: window label = updatedLabel
+	self assert: window label = 'ReichesKlammerBrett (a-z)'

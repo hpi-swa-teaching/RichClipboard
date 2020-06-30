@@ -1,11 +1,7 @@
 testing
 testUpdateTitleSortedByDate
-	| updatedLabel |
+	window toggleDateSort.
+	self assert: window label = 'ReichesKlammerBrett (old-new)'.
 	
 	window toggleDateSort.
-	updatedLabel := window windowTitle.
-	self assert: window label = updatedLabel.
-	
-	window toggleDateSort.
-	updatedLabel := window windowTitle.
-	self assert: window label = updatedLabel
+	self assert: window label = 'ReichesKlammerBrett (new-old)'

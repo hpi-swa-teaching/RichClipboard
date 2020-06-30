@@ -4,11 +4,13 @@ toggleAlphabeticSort
 	self alphabeticSortInverted ifTrue: [ 
 		alphabeticSortInverted := false.
 		self clippingsList sortByName.
-		self updateWindowTitle: ' (a-z)'
+		self currentSortMode: ' (a-z)'.
+		self updateWindowTitle.
 	] ifFalse: [
 		alphabeticSortInverted := true.
 		self clippingsList sortByNameInverse. 
-		self updateWindowTitle: ' (z-a)'
+		self currentSortMode: ' (z-a)'.
+		self updateWindowTitle.
 	].
 	self changed: #alphabeticSortButtonLabel.
 	self fixHeightOfToolbarButtons

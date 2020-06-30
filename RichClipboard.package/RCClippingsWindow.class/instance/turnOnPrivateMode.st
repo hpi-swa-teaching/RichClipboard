@@ -4,6 +4,6 @@ turnOnPrivateMode
 		privateModeActive := true.
 		self storage privateModeActive: true.
 		self clippingsList isInPrivateMode: true.
-		self windowTitle: self class defaultLabel, ' (private mode)'.
+		self privateModeActive: true.
 		self updateWindowTitle: self currentSortMode
 	]
