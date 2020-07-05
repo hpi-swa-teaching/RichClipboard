@@ -1,13 +1,8 @@
 testing
 testAppliesSortByDate
-	| clippingsList storage |
-	
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
-	
-	storage add: 'abc'.
-	storage add: 'adsfabc'.
-	storage add: 'ahfghbc'.
+	storage add: 'abc';
+			add: 'adsfabc';
+			add: 'ahfghbc'.
 	
 	clippingsList sortByDate.
 	self assert: (clippingsList clippings hasEqualElements: { 'ahfghbc' . 'adsfabc' . 'abc' }).

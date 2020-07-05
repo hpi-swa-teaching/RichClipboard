@@ -1,11 +1,13 @@
 running
 setUp
-	self storage: RCStorage new.
-	self clippingsList: RCClippingsList newWithStorage: storage.
+	systemClipboard := RCSystemClipboardNullObject new.
+	storage := RCStorage new.
+	clippingsList := RCClippingsList newWithStorage: storage
+									 	andSystemClipboard: systemClipboard.
 	
-	storage add: '1'.
-	storage add: '2'.
-	storage add: '3'.
-	storage add: '4'.
-	storage add: '5'.
-	storage add: '6'
+	storage add: '1';
+	 		add: '2';
+			add: '3';
+	 		add: '4';
+			add: '5';
+			add: '6'

@@ -1,18 +1,10 @@
 testing
 testSelectedClippingCopiedToClipboard
-	| selected storage clippingsList testWord priorClipping |
+	| selected |
 	
-	priorClipping := Clipboard default clipboardText.
-	testWord := 'sdizufowasiuzghfoiashgiuashfdg'.
-	
-	storage := RCStorage new.
-	storage add: testWord.
-	
-	clippingsList := RCClippingsList newWithStorage: storage.
+	storage add: 'abcdasfdas34e'.
 	clippingsList isInPrivateMode: true.
-
 	selected := 1.
-	clippingsList copyBackToClipboard: selected.
-	self assert: (Clipboard default clipboardText = testWord).
 	
-	Clipboard default clipboardText: priorClipping
+	clippingsList copyBackToClipboard: selected.
+	self assert: (systemClipboard clipboardText string = 'abcdasfdas34e')

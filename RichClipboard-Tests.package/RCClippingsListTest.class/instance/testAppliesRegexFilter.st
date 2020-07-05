@@ -1,13 +1,8 @@
 testing
-testAppliesRegexFilter
-	| clippingsList storage |
-	
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
-	
-	storage add: 'abc'.
-	storage add: 'ade'.
-	storage add: '...'.
+testAppliesRegexFilter		
+	storage add: 'abc';
+			add: 'ade';
+			add: '...'.
 	
 	clippingsList filterByRegex: '.*'.
 	self assert: (clippingsList clippings hasEqualElements: { '...' . 'ade' . 'abc'}).

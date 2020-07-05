@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testNewWithStorage" : "graf 5/25/2020 21:37",
+		"setUp" : "graf 6/20/2020 16:22",
+		"tearDown" : "graf 6/20/2020 16:24",
+		"testClearAllEntries" : "graf 7/5/2020 14:21",
 		"testOpenInWorld" : "graf 5/25/2020 21:36",
 		"testTogglePrivateMode" : "joj 6/1/2020 15:48",
 		"testToggleSearchbar" : "graf 5/31/2020 18:25",
