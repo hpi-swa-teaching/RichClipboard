@@ -1,6 +1,5 @@
 sort-alphabetically
 toggleAlphabeticSort
-
 	self alphabeticSortInverted ifTrue: [ 
 		alphabeticSortInverted := false.
 		self clippingsList sortByName.
