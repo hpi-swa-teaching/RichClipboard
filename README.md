@@ -1,6 +1,10 @@
 # RichClipboard
 ![CI](https://github.com/hpi-swa-teaching/RichClipboard/workflows/CI/badge.svg)
 
+**RichClipboard** is a clipboard manager for Squeak which stores data copied to the clipboard to allow for further usage. It enhances the basic functions of cut, copy, and paste from the default clipboard in Squeak.
+
+![Example RichClipboard](./screenshots/richclipboard-example.png)
+
 ## Installation
 
 **Caution:** The functionality of `ctrl+v` will be overwritten upon using RichClipboard. For the time being, it is still impossible to uninstall RichClipboard and that's why it shouldn't be installed in an important Squeak Image.
