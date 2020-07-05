@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"DefaultInstance" ],
-	"commentStamp" : "joj 7/5/2020 23:37",
+	"commentStamp" : "joj 7/6/2020 00:28",
 	"instvars" : [
 		"storage",
 		"systemClipboard",

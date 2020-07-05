@@ -2,21 +2,21 @@ RichClipboard is a clipboard manager for Squeak which stores data copied to the 
 
 For first time setup, execute: `RichClipboard default openInWorld`
 
-Instance Variables
-	storage:				<RCStorage>
-	systemClipboard:		<Clipboard>
-	openWindows:  		<LinkedList>
-	isTestInstance: 			<Boolean>
+Instance Variables  
+	storage:				<RCStorage>  
+	systemClipboard:		<Clipboard>  
+	openWindows:  		<LinkedList>  
+	isTestInstance: 			<Boolean>  
 				
-storage
-	- Where all clipboard entries are stored
+storage  
+	- Where all clipboard entries are stored.
 	
-systemClipboard
-	- The default Clipboard object in Squeak
+systemClipboard  
+	- The default Clipboard object in Squeak.
 	
-openWindows
-	- A list of all currently open RCClippingsWindow objects
+openWindows  
+	- A list of all currently open RCClippingsWindow objects.
 	
-isTestInstance
-	- Boolean for whether the RichClipboard is being used for testing, in which case an RCSystemClipboardNullObject is used  	         instead of the default clipboard 
+isTestInstance  
+	- Boolean for whether the RichClipboard is being used for testing, in which case an RCSystemClipboardNullObject is used instead of the default clipboard.
 	
