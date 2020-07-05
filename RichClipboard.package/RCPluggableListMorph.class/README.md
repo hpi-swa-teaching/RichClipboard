@@ -1,0 +1,1 @@
+An RCPluggableListMorph enables interaction with the RCClippingsList in the RCClippingsWindow.
