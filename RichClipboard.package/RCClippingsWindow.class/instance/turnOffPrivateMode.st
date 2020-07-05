@@ -4,5 +4,5 @@ turnOffPrivateMode
 		privateModeActive := false.
 		self storage privateModeActive: false.
 		self clippingsList isInPrivateMode: false. 
-		self updateWindowTitle.
+		self updateWindowTitle
 	]
