@@ -1,4 +1,4 @@
 event handling
-mouseUp: evt 
+mouseUp: anEvent
 	self listMorph lastEventWasMouseEvent: true.
-	super mouseUp: evt
+	super mouseUp: anEvent
