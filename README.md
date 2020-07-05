@@ -1,8 +1,6 @@
 # RichClipboard
 ![CI](https://github.com/hpi-swa-teaching/RichClipboard/workflows/CI/badge.svg)
 
-(swt20-14)
-
 ## Installation
 
 **Caution:** The functionality of `ctrl+v` will be overwritten upon using RichClipboard. For the time being, it is still impossible to uninstall RichClipboard and that's why it shouldn't be installed in an important Squeak Image.
@@ -30,3 +28,10 @@ Metacello new
 - Clicking `Toggle Private Mode` toggles between private mode and public mode. The important point is that in private mode, the copied entries will not be stored in RichClipboard.
   - To be able to determine whether RichClipboard is in private mode or not, look for the window title `(Private Mode)`. If it isn't present, that means that it isn't in private mode.
 
+## History
+
+This project was started in summer term 2020 as part of the Software Engineering course at HPI.
+
+Contributers:  
+Siddeshkanth Logonathan, Jeffrey Johnson, Leonard Seibold, Martin Graf, Daniel Woelki  
+(swt20-14)
