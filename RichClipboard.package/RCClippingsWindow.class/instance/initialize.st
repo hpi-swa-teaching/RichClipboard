@@ -1,8 +1,6 @@
 initialize-release
 initialize
 	super initialize.
-	
-	currentSortMode := ''.
 	self updateWindowTitle.
 	
 	self clippingsList: (RCClippingsList newWithStorage: self storage 

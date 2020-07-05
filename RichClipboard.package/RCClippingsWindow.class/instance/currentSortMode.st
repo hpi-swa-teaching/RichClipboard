@@ -1,3 +1,3 @@
 accessing
 currentSortMode
-	^ currentSortMode
+	^ currentSortMode ifNil: [ currentSortMode := '' ]
