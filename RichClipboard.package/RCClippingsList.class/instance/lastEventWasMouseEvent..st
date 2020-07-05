@@ -1,3 +1,3 @@
 accessing
-lastEventWasMouseEvent: aBool
-	lastEventWasMouseEvent := aBool
+lastEventWasMouseEvent: aBoolean
+	lastEventWasMouseEvent := aBoolean
