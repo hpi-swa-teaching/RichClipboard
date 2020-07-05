@@ -1,3 +1,3 @@
 running
 tearDown
-	self richClipboard destroy
+	richClipboard destroy

@@ -3,11 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"DefaultInstance" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"storage",
-		"window" ],
+		"systemClipboard",
+		"openWindows",
+		"isTestInstance" ],
 	"name" : "RichClipboard",
 	"pools" : [
 		 ],

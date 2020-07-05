@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"systemClipboard",
+		"storage",
+		"clippingsList" ],
 	"name" : "RCClippingsListTest",
 	"pools" : [
 		 ],

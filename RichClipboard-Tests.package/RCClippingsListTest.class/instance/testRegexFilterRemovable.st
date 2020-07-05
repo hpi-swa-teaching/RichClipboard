@@ -1,14 +1,9 @@
 testing
 testRegexFilterRemovable
-	| clippingsList storage |
+	storage add: 'abc';
+			add: 'ade';
+			add: '...'.
 	
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage.
-	
-	storage add: 'abc'.
-	storage add: 'ade'.
-	storage add: '...'.
-	
-	clippingsList filterByRegex: 'nada'.
-	clippingsList removeFilterByRegex.
+	clippingsList filterByRegex: 'nada';
+				  removeFilterByRegex.
 	self assert: clippingsList clippings size = 3
