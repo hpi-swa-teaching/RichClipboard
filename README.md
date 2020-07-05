@@ -1,4 +1,6 @@
 # RichClipboard
+![CI](https://github.com/hpi-swa-teaching/RichClipboard/workflows/CI/badge.svg)
+
 (swt20-14)
 
 ## Installation
