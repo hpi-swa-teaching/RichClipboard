@@ -1,4 +1,4 @@
 event handling
-keyStroke: evt 
+keyStroke: anEvent 
 	self listMorph lastEventWasMouseEvent: false.
-	super keyStroke: evt 
+	super keyStroke: anEvent
