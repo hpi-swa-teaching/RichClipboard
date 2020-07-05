@@ -2,11 +2,9 @@ initialize-release
 initialize
 	super initialize.
 	self updateWindowTitle.
-	
 	self clippingsList: (RCClippingsList newWithStorage: self storage 
-																			andSystemClipboard: systemClipboard).
+									         andSystemClipboard: systemClipboard).
 	self addClippingsList.
-	
 	self addToolbar.
 	self addToToolbar: self createRegexSearchButton.
 	self addToToolbar: self createDateSortButton.
