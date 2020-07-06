@@ -3,6 +3,8 @@ applyRegexFilter: aCollection
 	"Private"
 	regexFilter ifNotNil: [
 		aCollection removeAllSuchThat: [ :clipping | 
-			(regexFilter matches: clipping) not
+			(regexFilter matches: clipping asString) not
 		]
-	]
+	].
+
+	^ aCollection
