@@ -1,5 +1,5 @@
 sort
-applySort: aCollection
+sort: aCollection
 	" Private "
 	^ sortBlock ifNil: [ 
 			aCollection 

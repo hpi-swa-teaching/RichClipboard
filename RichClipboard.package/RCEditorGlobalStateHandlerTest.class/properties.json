@@ -1,0 +1,16 @@
+{
+	"category" : "RichClipboard-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"priorAlt",
+		"priorCtrl",
+		"textMorph" ],
+	"name" : "RCEditorGlobalStateHandlerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

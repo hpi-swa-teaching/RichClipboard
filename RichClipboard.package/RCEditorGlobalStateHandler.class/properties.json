@@ -1,0 +1,15 @@
+{
+	"category" : "RichClipboard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"AltKeyDown",
+		"CtrlKeyDown" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RCEditorGlobalStateHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

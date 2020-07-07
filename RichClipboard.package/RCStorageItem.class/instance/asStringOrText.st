@@ -1,0 +1,3 @@
+converting
+asStringOrText
+	^ self asString

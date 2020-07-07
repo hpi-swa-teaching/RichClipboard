@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"paste:" : "siddeshkanth logonathan 6/27/2020 09:22",
-		"pasteFromRCContextMenu:" : "siddeshkanth logonathan 6/27/2020 09:22",
+		"keyDown:" : "graf 7/4/2020 16:10",
+		"keyUp:" : "graf 7/4/2020 16:42",
+		"pasteFromRCContextMenu:" : "siddeshkanth logonathan 6/27/2020 10:10",
 		"rcSelectAndPasteClipping" : "graf 6/20/2020 16:51" } }

@@ -3,6 +3,7 @@ clippings
 	| clippings |
 	
 	clippings := self storage getAll.
-	self applyRegexFilter: clippings.
+	clippings := self applyRegexFilter: clippings.
+	clippings := self sort: clippings.
 	
-	^ self applySort: clippings
+	^ clippings

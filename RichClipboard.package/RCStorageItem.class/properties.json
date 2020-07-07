@@ -1,0 +1,14 @@
+{
+	"category" : "RichClipboard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content" ],
+	"name" : "RCStorageItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

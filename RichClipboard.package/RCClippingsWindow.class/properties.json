@@ -14,7 +14,8 @@
 		"alphabeticSortInverted",
 		"dateSortInverted",
 		"privateModeActive",
-		"systemClipboard" ],
+		"systemClipboard",
+		"currentSortMode" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
 		 ],
