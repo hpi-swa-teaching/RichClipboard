@@ -8,5 +8,5 @@ initialize
 	self storage
 		when: #clippingsChanged
 		send: #clippingsChanged 
-		to: self.
+		to: self
 		
