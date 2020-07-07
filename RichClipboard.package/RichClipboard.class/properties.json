@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		"DefaultInstance" ],
-	"commentStamp" : "joj 7/7/2020 14:21",
+	"commentStamp" : "",
 	"instvars" : [
 		"storage",
 		"systemClipboard",
 		"openWindows",
 		"isTestInstance",
-		"removeFromClipboardTimeoutMS",
 		"earliestDeletionTimeMS" ],
 	"name" : "RichClipboard",
 	"pools" : [
