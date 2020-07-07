@@ -4,7 +4,7 @@ initialize
 	
 	openWindows := LinkedList new.
 	storage := RCStorage new.
-	removeFromClipboardTimeoutMS := 60000.
+	removeFromClipboardTimeoutMS := self class defaultRemoveFromClipboardTimeoutMS.
 
 	self isTestInstance ifTrue: [
 		systemClipboard := RCSystemClipboardNullObject new.
