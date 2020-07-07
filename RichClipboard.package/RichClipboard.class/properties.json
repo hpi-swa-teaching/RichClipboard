@@ -10,7 +10,8 @@
 		"systemClipboard",
 		"openWindows",
 		"isTestInstance",
-		"removeFromClipboardTimeoutMS" ],
+		"removeFromClipboardTimeoutMS",
+		"earliestDeletionTimeMS" ],
 	"name" : "RichClipboard",
 	"pools" : [
 		 ],

@@ -1,8 +1,6 @@
 private mode
 startTimerRemoveFromClipboard
-	| clipping |
-
 	(self storage privateModeActive) ifTrue: [
-		clipping := self systemClipboard clipboardText asString.
-		(self future: removeFromClipboardTimeoutMS) removeFromClipboardIfUnchanged: clipping
+		self earliestDeletionTimeMS: (Time millisecondClockValue + removeFromClipboardTimeoutMS).
+		(self future: removeFromClipboardTimeoutMS) removeFromClipboardIfUnchanged
 	]
