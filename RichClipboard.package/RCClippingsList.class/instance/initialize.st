@@ -2,7 +2,6 @@ initialize-release
 initialize
 	super initialize.
 	self borderWidth: 0.
-
 	regexFilter := nil.
 	self contextMenuIsOpen: false.
 	
@@ -10,3 +9,4 @@ initialize
 		when: #clippingsChanged
 		send: #clippingsChanged 
 		to: self
+		

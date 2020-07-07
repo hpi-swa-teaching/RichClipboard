@@ -14,4 +14,8 @@ initialize
 
 	self systemClipboard when: #contentChanged
 						   	send: #clipboardChanged:from:
+							to: self.
+							
+	self systemClipboard when: #contentChanged
+							send: #startTimerRemoveFromClipboard
 							to: self
