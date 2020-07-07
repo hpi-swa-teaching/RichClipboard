@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"priorAlt",
+		"priorCtrl",
+		"textMorph" ],
 	"name" : "RCEditorGlobalStateHandlerTest",
 	"pools" : [
 		 ],

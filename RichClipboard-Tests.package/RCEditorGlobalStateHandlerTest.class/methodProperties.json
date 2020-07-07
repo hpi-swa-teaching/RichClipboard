@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEditorSetsGlobalStateOnAltAndCtrl" : "graf 7/4/2020 16:42" } }
+		"altDownEvent" : "graf 7/7/2020 13:40",
+		"altUpEvent" : "graf 7/7/2020 13:40",
+		"ctrlDownEvent" : "graf 7/7/2020 13:40",
+		"ctrlUpEvent" : "graf 7/7/2020 13:40",
+		"setUp" : "graf 7/7/2020 13:41",
+		"tearDown" : "graf 7/7/2020 13:32",
+		"testEditorSetsGlobalStateOnAltAndCtrl" : "graf 7/7/2020 13:41" } }
