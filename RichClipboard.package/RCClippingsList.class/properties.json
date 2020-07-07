@@ -11,8 +11,7 @@
 		"regexFilter",
 		"isInPrivateMode",
 		"contextMenuIsOpen",
-		"sortBlock",
-		"timeoutMS" ],
+		"sortBlock" ],
 	"name" : "RCClippingsList",
 	"pools" : [
 		 ],

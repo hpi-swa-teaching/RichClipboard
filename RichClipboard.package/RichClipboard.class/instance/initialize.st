@@ -4,6 +4,7 @@ initialize
 	
 	openWindows := LinkedList new.
 	storage := RCStorage new.
+	removeFromClipboardTimeoutMS := 60000.
 
 	self isTestInstance ifTrue: [
 		systemClipboard := RCSystemClipboardNullObject new.
@@ -14,4 +15,9 @@ initialize
 
 	self systemClipboard when: #contentChanged
 						   	send: #clipboardChanged:from:
+							to: self.
+							
+	self systemClipboard when: #contentChanged
+							send: #startTimerRemoveFromClipboard
 							to: self
+		
