@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "siddeshkanth logonathan 6/27/2020 11:25",
+		"setUp" : "graf 7/8/2020 09:29",
+		"tearDown" : "graf 7/8/2020 09:29",
 		"testAppliesRegexFilter" : "siddeshkanth logonathan 6/27/2020 11:26",
 		"testAppliesSortAlphabetically" : "siddeshkanth logonathan 6/27/2020 11:27",
 		"testAppliesSortByDate" : "siddeshkanth logonathan 6/27/2020 11:27",

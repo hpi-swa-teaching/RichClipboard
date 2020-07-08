@@ -6,4 +6,4 @@ copyBackToClipboard: anIndex
 	(self isInPrivateMode) ifFalse: [ 
 		self storage remove: selectedClipping
 	].
-	systemClipboard clipboardText: selectedClipping asString
+	self systemClipboard clipboardText: selectedClipping asString

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"systemClipboard",
 		"storage",
-		"window" ],
+		"window",
+		"richClipboard" ],
 	"name" : "RCClippingsWindowTest",
 	"pools" : [
 		 ],

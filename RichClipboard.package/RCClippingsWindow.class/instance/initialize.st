@@ -2,8 +2,7 @@ initialize-release
 initialize
 	super initialize.
 	self updateWindowTitle.
-	self clippingsList: (RCClippingsList newWithStorage: self storage 
-									         andSystemClipboard: systemClipboard).
+	self clippingsList: (RCClippingsList newWithRichClipboard: richClipboard).
 	self addClippingsList.
 	self addToolbar.
 	self addToToolbar: self createClearAllButton.

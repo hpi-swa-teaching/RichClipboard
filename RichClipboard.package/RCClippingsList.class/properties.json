@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storage",
-		"systemClipboard",
+		"richClipboard",
 		"regexFilter",
 		"lastEventWasMouseEvent",
 		"isInPrivateMode",
-		"contextMenuIsOpen",
+		"belongsToContextMenu",
 		"sortBlock" ],
 	"name" : "RCClippingsList",
 	"pools" : [

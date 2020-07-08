@@ -1,3 +1,3 @@
 accessing
 storage
-	^ storage
+	^ richClipboard storage
