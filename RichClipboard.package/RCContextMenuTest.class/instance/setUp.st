@@ -1,9 +1,11 @@
 running
 setUp
-	systemClipboard := RCSystemClipboardNullObject new.
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage
-									 	andSystemClipboard: systemClipboard.
+	richClipboard := RichClipboard newTestInstance.
+	systemClipboard := richClipboard systemClipboard.
+	storage := richClipboard storage.
+	editor := RCEditorNullObject new.
+	contextMenu := richClipboard openContextMenu: editor.
+	clippingsList := contextMenu clippingsList.
 	
 	storage add: '1';
 	 		add: '2';

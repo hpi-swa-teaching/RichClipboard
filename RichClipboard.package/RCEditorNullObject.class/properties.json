@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"storage",
-		"clippingsList",
-		"systemClipboard",
-		"richClipboard",
-		"contextMenu",
-		"editor" ],
-	"name" : "RCContextMenuTest",
+		"pastedClippings" ],
+	"name" : "RCEditorNullObject",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

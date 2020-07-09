@@ -3,5 +3,6 @@ testPasteSelectedClipping
 	| index |
 	
 	index := 1.
-	self clippingsList belongsToContextMenu: true.
-	self shouldnt: [ self clippingsList selectedClippingIndex: index. ] raise: Error
+	clippingsList lastEventWasMouseEvent: true.
+	clippingsList selectedClippingIndex: index.
+	self assert: (editor pastedClippings hasEqualElements: { '6' })
