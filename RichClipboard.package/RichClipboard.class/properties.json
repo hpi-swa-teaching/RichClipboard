@@ -11,7 +11,8 @@
 		"openWindows",
 		"isTestInstance",
 		"earliestDeletionTimeMS",
-		"contextMenu" ],
+		"contextMenu",
+		"privateModeActive" ],
 	"name" : "RichClipboard",
 	"pools" : [
 		 ],

@@ -2,7 +2,6 @@ testing
 testSelectedClippingMovedToTop
 	| selected |
 
-	clippingsList isInPrivateMode: false.
 	storage add: 'test1'.
 	storage add: 'test2'.
 	selected := 2.

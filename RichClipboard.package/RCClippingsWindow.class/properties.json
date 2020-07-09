@@ -13,7 +13,6 @@
 		"toolbarMorph",
 		"alphabeticSortInverted",
 		"dateSortInverted",
-		"privateModeActive",
 		"currentSortMode" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [
