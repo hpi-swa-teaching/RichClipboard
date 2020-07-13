@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"deleteCallback",
+		"deleteCallbackObject",
+		"contextMenu" ],
 	"name" : "RCPluggableListMorph",
 	"pools" : [
 		 ],

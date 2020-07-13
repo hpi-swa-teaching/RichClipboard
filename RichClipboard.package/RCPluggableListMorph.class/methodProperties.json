@@ -1,8 +1,12 @@
 {
 	"class" : {
-		"newWithClippingsList:" : "graf 5/31/2020 17:56" },
+		"newWithClippingsList:" : "graf 5/31/2020 17:56",
+		"newWithClippingsList:deleteCallback:on:" : "siddeshkanth logonathan 7/13/2020 16:15" },
 	"instance" : {
 		"createListMorph" : "joj 6/1/2020 10:15",
+		"deleteCallback" : "siddeshkanth logonathan 7/13/2020 16:10",
+		"deleteCallback:on:" : "siddeshkanth logonathan 7/13/2020 16:16",
 		"keyStroke:" : "siddeshkanth logonathan 6/27/2020 10:15",
 		"listMorph:" : "graf 5/30/2020 16:36",
-		"mouseUp:" : "siddeshkanth logonathan 6/27/2020 10:16" } }
+		"mouseDown:" : "siddeshkanth logonathan 7/13/2020 16:33",
+		"mouseUp:" : "siddeshkanth logonathan 7/13/2020 15:45" } }
