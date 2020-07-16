@@ -1,5 +1,5 @@
 testing
-testSetsLastEventWasMouseEventCorrectly
+testRightClickOnListItem
 	| clippingsList pluggableListMorph event storage |
 	
 	storage := RCStorage new.
@@ -7,27 +7,19 @@ testSetsLastEventWasMouseEventCorrectly
 										andSystemClipboard: RCSystemClipboardNullObject.
 	pluggableListMorph := RCPluggableListMorph newWithClippingsList: clippingsList deleteCallback: #removeAtIndex: on: storage.
 	
-	event := KeyboardEvent new
-			setType: #keyStroke
-			buttons: 0
-			position: pluggableListMorph center
-			keyValue: $c asciiValue
-			hand: nil
-			stamp: nil.
-	pluggableListMorph keyStroke: event.
-	self assert: clippingsList lastEventWasMouseEvent not.
-	
 	event := MouseEvent new 
 				setType: #mouseDown
 				position: pluggableListMorph center
-				buttons: 0
+				buttons: 2
 				hand: RCHandNullObject new.
-	pluggableListMorph mouseDown: event.
+	self shouldnt: [ pluggableListMorph mouseDown: event ] raise: Error.
 	event := MouseEvent new 
 				setType: #mouseUp
 				position: pluggableListMorph center
-				buttons: 0
+				buttons: 2
 				hand: RCHandNullObject new.
-	pluggableListMorph mouseUp: event.
-	self assert: clippingsList lastEventWasMouseEvent
+	self shouldnt: [ pluggableListMorph mouseUp: event ] raise: Error.
+	
+	self shouldnt: [ pluggableListMorph closeItemMenuIfOpen ] raise: Error
+	
 	

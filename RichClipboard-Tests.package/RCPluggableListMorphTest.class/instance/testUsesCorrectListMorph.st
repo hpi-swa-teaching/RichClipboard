@@ -1,8 +1,10 @@
 testing
 testUsesCorrectListMorph
-	| clippingsList pluggableListMorph |
+	| clippingsList pluggableListMorph storage |
 	
-	clippingsList := RCClippingsList newWithStorage: RCStorage new
+	storage := RCStorage new.
+	clippingsList := RCClippingsList newWithStorage: storage
 										andSystemClipboard: RCSystemClipboardNullObject.
-	pluggableListMorph := RCPluggableListMorph newWithClippingsList: clippingsList.
+	pluggableListMorph := RCPluggableListMorph newWithClippingsList: clippingsList deleteCallback: #removeAtIndex: on: storage.
+	
 	self assert: pluggableListMorph listMorph = clippingsList

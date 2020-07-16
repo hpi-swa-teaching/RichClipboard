@@ -8,5 +8,5 @@ addClippingsList
 		 topFraction: 0;
 		 bottomFraction: 1;
 		 bottomOffset: 0.
-	pluggableListMorph := RCPluggableListMorph newWithClippingsList: self clippingsList.
+	pluggableListMorph := RCPluggableListMorph newWithClippingsList: (self clippingsList) deleteCallback: #removeAtIndex: on: (self storage).
 	self addMorph: pluggableListMorph fullFrame: listMorphFrame

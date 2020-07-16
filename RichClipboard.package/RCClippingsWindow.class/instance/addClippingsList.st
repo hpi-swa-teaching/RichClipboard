@@ -7,5 +7,5 @@ addClippingsList
 		 topFraction: 0;
 		 bottomFraction: 1;
 		 bottomOffset: -1 * self class defaultBottomBarHeight.
-	pluggableListMorph := RCPluggableListMorph newWithClippingsList: (self clippingsList) deleteCallback: #removeAtIndex: on: storage.
+	pluggableListMorph := RCPluggableListMorph newWithClippingsList: (self clippingsList) deleteCallback: #removeAtIndex: on: (self storage).
 	self addMorph: pluggableListMorph fullFrame: listMorphFrame

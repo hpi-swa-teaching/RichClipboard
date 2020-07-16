@@ -8,7 +8,7 @@
 	"instvars" : [
 		"deleteCallback",
 		"deleteCallbackObject",
-		"contextMenu" ],
+		"itemMenu" ],
 	"name" : "RCPluggableListMorph",
 	"pools" : [
 		 ],

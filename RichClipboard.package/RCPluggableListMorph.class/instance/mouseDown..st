@@ -1,16 +1,14 @@
 event handling
 mouseDown: anEvent
-	contextMenu ifNotNil: [
-		contextMenu delete	
-	].
+	| row menu |
+	
+	self closeItemMenuIfOpen.
 	(anEvent buttons = 2) ifTrue: [
-		| row |
-		
 		row := self rowAtLocation: anEvent position.
-		contextMenu := MenuMorph new.
-		contextMenu add: 'Delete' target: deleteCallbackObject selector: (self deleteCallback) argument: row.
-		contextMenu openInWorld.
-		contextMenu position: anEvent position
+		
+		menu := self  itemMenuFor: row.
+		menu position: anEvent position.
+		menu openInWorld
 	] ifFalse: [
 		self listMorph lastEventWasMouseEvent: true.
 		self changeModelSelection: (self rowAtLocation: anEvent position).
