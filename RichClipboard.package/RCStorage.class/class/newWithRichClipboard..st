@@ -1,9 +1,9 @@
-as yet unclassified
+instance creation
 newWithRichClipboard: aRichClipboard
 	| storage |
 	
 	storage := RCStorage basicNew.
-	storage richClipboard: aRichClipboard.
-	storage initialize.
+	storage richClipboard: aRichClipboard;
+				 	initialize.
 	
 	^ storage

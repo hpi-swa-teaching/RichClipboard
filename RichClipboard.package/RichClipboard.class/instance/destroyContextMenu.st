@@ -1,8 +1,8 @@
 destroy
 destroyContextMenu
 	contextMenu ifNotNil: [ 
-		contextMenu delete.
-		contextMenu removeActionsForEvent: #requestPasteClipping.
+		contextMenu delete;
+								   removeActionsForEvent: #requestPasteClipping.
 		contextMenu := nil
 	]
 
