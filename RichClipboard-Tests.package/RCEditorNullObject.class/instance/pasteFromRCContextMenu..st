@@ -1,0 +1,3 @@
+pasting
+pasteFromRCContextMenu: selectedClipping
+	self pastedClippings addFirst: selectedClipping

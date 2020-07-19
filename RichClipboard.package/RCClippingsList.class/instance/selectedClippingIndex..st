@@ -4,7 +4,7 @@ selectedClippingIndex: anIndex
 	
 	self changed: #selectedClippingIndex.
 	(anIndex > 0 and: [ self lastEventWasMouseEvent ]) ifTrue: [
-		(self contextMenuIsOpen) ifTrue: [ 
+		(self belongsToContextMenu) ifTrue: [ 
 			self pasteClippingAt: anIndex 
 		] ifFalse: [
 			self copyBackToClipboard: anIndex 

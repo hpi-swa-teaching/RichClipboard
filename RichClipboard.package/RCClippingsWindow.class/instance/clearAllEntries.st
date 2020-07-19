@@ -1,3 +1,3 @@
 clear-all
 clearAllEntries
-	storage removeAll
+	self storage removeAll

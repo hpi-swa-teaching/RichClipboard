@@ -8,7 +8,10 @@
 	"instvars" : [
 		"storage",
 		"clippingsList",
-		"systemClipboard" ],
+		"systemClipboard",
+		"richClipboard",
+		"contextMenu",
+		"editor" ],
 	"name" : "RCContextMenuTest",
 	"pools" : [
 		 ],

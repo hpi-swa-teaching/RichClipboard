@@ -1,3 +1,3 @@
 testing
 testEmptyStorageIsEmpty
-	self assert: self storage isEmpty
+	self assert: storage isEmpty

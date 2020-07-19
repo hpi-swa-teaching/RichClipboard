@@ -2,14 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "graf 5/25/2020 20:58",
-		"storage" : "DW 5/20/2020 14:21",
-		"storage:" : "siddeshkanth logonathan 6/27/2020 09:29",
-		"testCanAddItems" : "graf 5/25/2020 21:37",
-		"testEmptyStorageIsEmpty" : "DW 5/20/2020 14:34",
-		"testGetAllReturnsAllItems" : "siddeshkanth logonathan 6/27/2020 11:36",
-		"testGetRaisesErrorOnInvalidInput" : "graf 5/25/2020 21:37",
-		"testGetReturnsFirstXItems" : "siddeshkanth logonathan 6/27/2020 11:42",
-		"testNonEmptyStorageIsNotEmpty" : "DW 5/20/2020 14:34",
-		"testSendsNotificationOnAddedItem" : "siddeshkanth logonathan 6/27/2020 11:44",
-		"testSizeReturnsNumberOfStoredElements" : "graf 5/25/2020 21:38" } }
+		"setUp" : "joj 7/9/2020 20:38",
+		"testCanAddItems" : "joj 7/9/2020 20:39",
+		"testEmptyStorageIsEmpty" : "joj 7/9/2020 20:39",
+		"testGetAllReturnsAllItems" : "joj 7/9/2020 20:39",
+		"testGetRaisesErrorOnInvalidInput" : "joj 7/9/2020 20:39",
+		"testGetReturnsFirstXItems" : "joj 7/9/2020 20:40",
+		"testNonEmptyStorageIsNotEmpty" : "joj 7/9/2020 20:40",
+		"testSendsNotificationOnAddedItem" : "graf 7/18/2020 17:53",
+		"testSizeReturnsNumberOfStoredElements" : "joj 7/9/2020 20:40" } }

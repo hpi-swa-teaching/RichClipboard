@@ -1,6 +1,3 @@
 testing
 testRetrieveRecentClippings
-	| recentClippings |
-	
-	recentClippings := self clippingsList recentClippings: 5.
-	self assert: (recentClippings size = 5)
+	self assert: clippingsList clippings size = 5

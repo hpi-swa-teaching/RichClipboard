@@ -2,8 +2,7 @@ initialization
 openInWorld
 	| window |
 		
-	window := (RCClippingsWindow newWithStorage: self storage
-																		andSystemClipboard: self systemClipboard).
+	window := RCClippingsWindow newWithRichClipboard: self.
 	window
 		when: #delete
 		send: #windowClosed:

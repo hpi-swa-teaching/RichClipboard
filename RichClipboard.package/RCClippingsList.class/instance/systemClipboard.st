@@ -1,0 +1,3 @@
+accessing
+systemClipboard
+	^ richClipboard systemClipboard
