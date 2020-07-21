@@ -1,4 +1,4 @@
-An RCClippingsWindow is a SystemWindow used to display stored clippings as well as present the user with a number of actions and options.
+An RCClippingsWindow is used to display stored clippings as well as present the user with a number of actions and options.
 
 Instance Variables  
 	alphabeticSortInverted:		<Boolean>  
