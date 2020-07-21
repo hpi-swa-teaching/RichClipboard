@@ -1,3 +1,4 @@
 running
 setUp
-	self storage: RCStorage new
+	richClipboard := RichClipboard newTestInstance.
+	storage := richClipboard storage

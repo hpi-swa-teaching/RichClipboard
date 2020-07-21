@@ -9,5 +9,5 @@ testPersistsClippingsAfterWindowClosed
 	window1 delete.
 	
 	window2 := richClipboard openInWorld.
-	self assert: window2 clippingsList clippings first = 'bli bla bleb';
-		 assert: window2 clippingsList clippings second = 'bla bla bla'
+	self assert: window2 clippingsList clippingsAsStrings first = 'bli bla bleb';
+		 assert: window2 clippingsList clippingsAsStrings second = 'bla bla bla'

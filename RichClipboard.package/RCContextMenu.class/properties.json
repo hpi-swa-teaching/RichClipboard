@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "joj 7/6/2020 00:23",
 	"instvars" : [
-		"storage",
-		"systemClipboard",
-		"clippingsList" ],
+		"clippingsList",
+		"richClipboard" ],
 	"name" : "RCContextMenu",
 	"pools" : [
 		 ],

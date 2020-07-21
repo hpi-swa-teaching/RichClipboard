@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"richClipboard",
+		"clippingsList",
+		"pluggableListMorph" ],
 	"name" : "RCPluggableListMorphTest",
 	"pools" : [
 		 ],

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "joj 7/6/2020 00:29",
+	"commentStamp" : "joj 7/7/2020 14:22",
 	"instvars" : [
 		"storageBackend",
-		"privateModeActive" ],
+		"richClipboard" ],
 	"name" : "RCStorage",
 	"pools" : [
 		 ],

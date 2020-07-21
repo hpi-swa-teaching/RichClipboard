@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testUsesCorrectListMorph" : "siddeshkanth logonathan 6/27/2020 09:25" } }
+		"setUp" : "graf 7/8/2020 09:38",
+		"tearDown" : "graf 7/8/2020 09:39",
+		"testSetsLastEventWasMouseEventCorrectly" : "graf 7/8/2020 09:39",
+		"testUsesCorrectListMorph" : "graf 7/8/2020 09:39" } }

@@ -1,9 +1,9 @@
 initialize-release
 initialize
 	super initialize.
-	
+	privateModeActive := false.
 	openWindows := LinkedList new.
-	storage := RCStorage new.
+	storage := RCStorage newWithRichClipboard: self.
 
 	self isTestInstance ifTrue: [
 		systemClipboard := RCSystemClipboardNullObject new.
@@ -14,4 +14,8 @@ initialize
 
 	self systemClipboard when: #contentChanged
 						   	send: #clipboardChanged:from:
+							to: self.
+							
+	self systemClipboard when: #contentChanged
+							send: #startTimerRemoveFromClipboard
 							to: self

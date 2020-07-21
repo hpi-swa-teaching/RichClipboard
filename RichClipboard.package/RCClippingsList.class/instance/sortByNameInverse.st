@@ -2,7 +2,7 @@ sort
 sortByNameInverse
 	sortBlock := [ :aCollection | 
 		(aCollection sorted: [ :a :b |
-			(a asLowercase) <= (b asLowercase)
+			(a asString asLowercase) <= (b asString asLowercase)
 		]) reverse 
 	].
 	self changed: #clippings

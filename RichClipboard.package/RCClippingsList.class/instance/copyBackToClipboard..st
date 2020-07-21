@@ -3,7 +3,7 @@ copyBackToClipboard: anIndex
 	| selectedClipping |
 
 	selectedClipping := self clippings at: anIndex.
-	(self isInPrivateMode) ifFalse: [ 
+	(self privateModeActive) ifFalse: [ 
 		self storage remove: selectedClipping
 	].
-	systemClipboard clipboardText: selectedClipping
+	self systemClipboard clipboardText: selectedClipping asString

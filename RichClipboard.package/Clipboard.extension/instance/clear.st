@@ -1,0 +1,3 @@
+*RichClipboard
+clear
+	contents := '' asText

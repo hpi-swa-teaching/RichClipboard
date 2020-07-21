@@ -2,7 +2,12 @@ accessing
 clippings
 	| clippings |
 	
-	clippings := self storage getAll.
-	self applyRegexFilter: clippings.
+	self belongsToContextMenu ifTrue: [
+		clippings := self storage get: (RCContextMenu defaultSelectionSize min: self storage size)
+	] ifFalse: [
+		clippings := self storage getAll
+	].
+	clippings := self applyRegexFilter: clippings.
+	clippings := self sort: clippings.
 	
-	^ self applySort: clippings
+	^ clippings

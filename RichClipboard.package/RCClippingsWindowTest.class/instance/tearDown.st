@@ -1,3 +1,3 @@
 running
 tearDown
-	window delete
+	richClipboard destroy

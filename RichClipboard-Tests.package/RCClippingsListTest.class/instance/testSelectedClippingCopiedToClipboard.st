@@ -3,7 +3,7 @@ testSelectedClippingCopiedToClipboard
 	| selected |
 	
 	storage add: 'abcdasfdas34e'.
-	clippingsList isInPrivateMode: true.
+	richClipboard turnOnPrivateMode.
 	selected := 1.
 	
 	clippingsList copyBackToClipboard: selected.

@@ -1,6 +1,6 @@
 running
 setUp
-	systemClipboard := RCSystemClipboardNullObject new.
-	storage := RCStorage new.
-	window := RCClippingsWindow newWithStorage: storage
-																	andSystemClipboard: systemClipboard
+	richClipboard := RichClipboard newTestInstance.
+	systemClipboard := richClipboard systemClipboard.
+	storage := richClipboard storage.
+	window := richClipboard openInWorld

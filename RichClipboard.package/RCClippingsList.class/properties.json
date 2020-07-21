@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "joj 7/6/2020 00:24",
+	"commentStamp" : "joj 7/7/2020 14:22",
 	"instvars" : [
-		"storage",
-		"systemClipboard",
+		"richClipboard",
 		"regexFilter",
-		"isInPrivateMode",
-		"contextMenuIsOpen",
+		"lastEventWasMouseEvent",
+		"belongsToContextMenu",
 		"sortBlock" ],
 	"name" : "RCClippingsList",
 	"pools" : [

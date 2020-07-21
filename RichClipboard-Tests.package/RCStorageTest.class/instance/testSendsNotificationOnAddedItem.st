@@ -4,9 +4,9 @@ testSendsNotificationOnAddedItem
 	
 	storageItem :=  'Test1' .
 	receivedClipping := nil.
-	self storage
+	storage
 		when: #clippingsChanged 
-		send: #value
-		to: [receivedClipping := (storage getAll at: 1)].
-	self storage add: storageItem.
+			send: #value
+			to: [receivedClipping := (storage getAll first) asString];
+	 	add: storageItem.
 	self assert: (storageItem = receivedClipping)

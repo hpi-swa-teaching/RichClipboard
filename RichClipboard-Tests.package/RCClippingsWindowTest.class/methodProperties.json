@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "graf 6/20/2020 16:22",
-		"tearDown" : "graf 6/20/2020 16:24",
-		"testClearAllEntries" : "graf 7/5/2020 14:21",
-		"testOpenInWorld" : "graf 5/25/2020 21:36",
-		"testTogglePrivateMode" : "joj 6/1/2020 15:48",
-		"testToggleSearchbar" : "graf 5/31/2020 18:25",
-		"testToggleSortAlphabetically" : "graf 6/6/2020 20:06",
-		"testToggleSortByDate" : "graf 6/6/2020 20:06" } }
+		"setUp" : "graf 7/8/2020 09:22",
+		"tearDown" : "graf 7/8/2020 09:22",
+		"testClearAllEntries" : "7/5/2020 18:07:43",
+		"testOpenInWorld" : "graf 6/20/2020 16:24",
+		"testTogglePrivateMode" : "graf 6/20/2020 16:24",
+		"testToggleSearchbar" : "graf 6/20/2020 16:25",
+		"testToggleSortAlphabetically" : "graf 6/20/2020 16:25",
+		"testToggleSortByDate" : "graf 6/20/2020 16:25",
+		"testUpdateTitleAlphabeticallySorted" : "DW 7/4/2020 18:04",
+		"testUpdateTitleSortedByDate" : "DW 6/30/2020 19:45" } }
