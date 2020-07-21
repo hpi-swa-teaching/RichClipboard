@@ -1,1 +1,1 @@
-An RCPluggableListMorph enables interaction with the RCClippingsList in the RCClippingsWindow.
+An RCPluggableListMorph is a counterpart to the RCClippingsList. It is responsible for providing search functionality similar to that of the System Browser, where one can simply type the search term into the window.
