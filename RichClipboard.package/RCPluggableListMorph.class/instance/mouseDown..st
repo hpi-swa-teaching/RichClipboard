@@ -5,7 +5,6 @@ mouseDown: anEvent
 	self closeItemMenuIfOpen.
 	(anEvent buttons = 2) ifTrue: [
 		row := self rowAtLocation: anEvent position.
-		
 		menu := self  itemMenuFor: row.
 		menu position: anEvent position.
 		menu openInWorld
@@ -13,4 +12,3 @@ mouseDown: anEvent
 		self listMorph lastEventWasMouseEvent: true.
 		self changeModelSelection: (self rowAtLocation: anEvent position).
 	]
-
