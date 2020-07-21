@@ -1,5 +1,5 @@
 # RichClipboard
-![CI](https://github.com/hpi-swa-teaching/RichClipboard/workflows/CI/badge.svg)
+![Tests](https://github.com/hpi-swa-teaching/RichClipboard/workflows/Tests/badge.svg)
 
 **RichClipboard** is a clipboard manager for Squeak which stores data copied to the clipboard to allow for further usage. It enhances the basic functions of cut, copy, and paste from the default clipboard in Squeak.
 
