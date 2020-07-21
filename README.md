@@ -27,7 +27,7 @@ Metacello new
   - You can search for an entry or entries by typing the desired word into RichClipboard's window.
   - In order to search for an entry or entries based on a certain pattern (Regex), click `Regex Search` and type in the desired pattern.
   - It is also possible to have more than one RichClipboard window open at the same time so that one can apply different sorting, searching and filtering functionality in parallel.
-- Clicking `Toggle Private Mode` toggles between private mode and default mode. In private mode, new clippings will not be stored in RichClipboard and clippings will disappear from the system clipboard after a few seconds.
+- Clicking `Toggle Private Mode` toggles between private mode and default mode. In private mode, new clippings will not be stored in RichClipboard and clippings will disappear from the system clipboard after a short amount of time.
   - RichClipboard is in private mode if the suffix `(Private Mode)` is appended to the window title.
   
 ## Contributing
