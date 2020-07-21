@@ -1,6 +1,5 @@
 testing
 testRemoveAt
-	
 	storage add: 'hallo';
 			add: 'world';
 			add: 'test'.
