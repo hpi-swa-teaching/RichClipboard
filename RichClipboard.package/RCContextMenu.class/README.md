@@ -1,4 +1,4 @@
-An RCContextMenu allows the user to select one of their five most recent clippings to be pasted. It is opened by pressing `ctrl + alt + v` and the selected clipping is pasted upon being clicked.
+An RCContextMenu allows the user to paste one of their five most recent clippings. It is opened by pressing `ctrl + alt + v`.
 
 Instance Variables  
 	clippingsList:			<RCClippingsList>  
