@@ -20,7 +20,7 @@ Metacello new
 ## Usage
 
 - All entries that have been copied in Squeak will automatically be copied to RichClipboard.
-- In order to copy an entry back to RichClipboard, just click the desired entry and it will be deleted and re-copied back to the RichClipboard.
+- Click an entry to copy it back to the clipboard.
 - The last 5 copied entries are accessible by the RichClipboard Context-Menu. This is accessed by pressing `ctrl+v`.
 - There are some additonal functionalities in RichClipboard which are a filtering function, a searching function and sorting functions.
   - Clicking `a-z` or `z-a` causes the entries to be sorted by ascending or descending alphabetical order and clicking `new-old` or `old-new` causes the entries to be sorted by the time it was copied to the RichClipboard.
