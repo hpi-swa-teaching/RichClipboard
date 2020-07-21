@@ -21,14 +21,14 @@ Metacello new
 
 - All entries that have been copied in Squeak will automatically be copied to RichClipboard.
 - Click an entry to copy it back to the clipboard.
-- The last 5 copied entries are accessible by the RichClipboard Context-Menu. This is accessed by pressing `ctrl+v`.
+- The last 5 copied entries are accessible by the RichClipboard Context-Menu. This is accessed by pressing `ctrl+alt+v`.
 - There are some additonal functionalities in RichClipboard which are a filtering function, a searching function and sorting functions.
-  - Clicking `a-z` or `z-a` causes the entries to be sorted by ascending or descending alphabetical order and clicking `new-old` or `old-new` causes the entries to be sorted by the time it was copied to the RichClipboard.
-  - We can search for an entry or entries just by typing our desired word in the RichClipboard Window.
-  - In order to search for an entry or entries based on a certain pattern (Regex), click `Regex Search` and give in the desired pattern.
+  - Clicking `a-z` or `z-a` causes the entries to be sorted by ascending or descending alphabetical order and clicking `new-old` or `old-new` causes the entries to be sorted by the time they were copied to RichClipboard.
+  - You can search for an entry or entries by typing the desired word into RichClipboard's window.
+  - In order to search for an entry or entries based on a certain pattern (Regex), click `Regex Search` and type in the desired pattern.
   - It is also possible to have more than one RichClipboard window open at the same time so that one can apply different sorting, searching and filtering functionality in parallel.
-- Clicking `Toggle Private Mode` toggles between private mode and public mode. The important point is that in private mode, the copied entries will not be stored in RichClipboard.
-  - To be able to determine whether RichClipboard is in private mode or not, look for the window title `(Private Mode)`. If it isn't present, that means that it isn't in private mode.
+- Clicking `Toggle Private Mode` toggles between private mode and default mode. In private mode, new clippings will not be stored in RichClipboard and clippings will disappear from the system clipboard after a few seconds.
+  - RichClipboard is in private mode if the suffix `(Private Mode)` is appended to the window title.
   
 ## Contributing
 
