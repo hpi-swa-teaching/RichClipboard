@@ -8,13 +8,10 @@
 		"testAppliesSortAlphabetically" : "siddeshkanth logonathan 6/27/2020 11:27",
 		"testAppliesSortByDate" : "siddeshkanth logonathan 6/27/2020 11:27",
 		"testRegexFilterRemovable" : "siddeshkanth logonathan 6/27/2020 09:33",
-<<<<<<< HEAD
 		"testRemoveAt" : "siddeshkanth logonathan 7/21/2020 12:52",
 		"testSelectedClippingCopiedToClipboard" : "siddeshkanth logonathan 6/27/2020 09:23",
 		"testSelectedClippingRemoved" : "graf 6/20/2020 16:20",
-=======
 		"testSelectedClippingCopiedToClipboard" : "joj 7/9/2020 21:08",
 		"testSelectedClippingMovedToTop" : "joj 7/9/2020 21:09",
->>>>>>> master
 		"testShowsAddedClippings" : "graf 6/20/2020 16:21",
 		"testShowsInitalClippings" : "graf 6/20/2020 16:21" } }
