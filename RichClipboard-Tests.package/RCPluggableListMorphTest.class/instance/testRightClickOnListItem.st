@@ -3,8 +3,7 @@ testRightClickOnListItem
 	| clippingsList pluggableListMorph event storage |
 	
 	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithStorage: storage
-										andSystemClipboard: RCSystemClipboardNullObject.
+	clippingsList := RCClippingsList newWithRichClipboard: richClipboard.
 	pluggableListMorph := RCPluggableListMorph newWithClippingsList: clippingsList.
 	
 	event := MouseEvent new 

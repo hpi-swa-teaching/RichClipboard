@@ -2,10 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testRightClickOnListItem" : "DW 7/29/2020 10:46",
-		"testSetsLastEventWasMouseEventCorrectly" : "DW 7/29/2020 10:47",
-		"testUsesCorrectListMorph" : "DW 7/29/2020 10:47",
-       "setUp" : "graf 7/8/2020 09:38",
+		"setUp" : "graf 7/8/2020 09:38",
 		"tearDown" : "graf 7/8/2020 09:39",
-		"testSetsLastEventWasMouseEventCorrectly" : "graf 7/8/2020 09:39",
-		"testUsesCorrectListMorph" : "graf 7/8/2020 09:39" } }
+		"testRightClickOnListItem" : "DW 7/29/2020 11:20",
+		"testSetsLastEventWasMouseEventCorrectly" : "DW 7/29/2020 11:20",
+		"testUsesCorrectListMorph" : "DW 7/29/2020 11:20" } }
