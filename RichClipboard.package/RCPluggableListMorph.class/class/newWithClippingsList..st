@@ -1,5 +1,5 @@
 instance creation
-newWithClippingsList: clippingsList deleteCallback: deleteCallback on: anObject
+newWithClippingsList: clippingsList
 	| newListMorph |
 	
 	newListMorph := self basicNew.
@@ -10,7 +10,7 @@ newWithClippingsList: clippingsList deleteCallback: deleteCallback on: anObject
 					changeSelected: #selectedClippingIndex:
 					menu: nil
 					keystroke: #arrowKey:from:.
-	newListMorph deleteCallback: deleteCallback on: anObject.
+	newListMorph deleteCallback: #removeAt: on: clippingsList.
 	newListMorph initialize.
 	
 	^  newListMorph

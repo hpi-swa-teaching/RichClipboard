@@ -1,15 +1,16 @@
 {
 	"class" : {
 		"deleteOptionText" : "siddeshkanth logonathan 7/16/2020 20:00",
-		"newWithClippingsList:deleteCallback:on:" : "siddeshkanth logonathan 7/16/2020 19:54" },
+		"newWithClippingsList:" : "DW 7/29/2020 10:48" },
 	"instance" : {
 		"closeItemMenuIfOpen" : "siddeshkanth logonathan 7/16/2020 19:43",
 		"createListMorph" : "joj 6/1/2020 10:15",
+		"deleteAt:" : "DW 7/29/2020 10:28",
 		"deleteCallback" : "siddeshkanth logonathan 7/13/2020 16:10",
 		"deleteCallback:on:" : "siddeshkanth logonathan 7/13/2020 16:16",
 		"deleteCallbackObject" : "siddeshkanth logonathan 7/16/2020 19:28",
-		"itemMenuFor:" : "siddeshkanth logonathan 7/16/2020 20:01",
+		"itemMenuFor:" : "DW 7/29/2020 10:41",
 		"keyStroke:" : "siddeshkanth logonathan 6/27/2020 10:15",
 		"listMorph:" : "graf 5/30/2020 16:36",
-		"mouseDown:" : "siddeshkanth logonathan 7/16/2020 19:44",
+		"mouseDown:" : "DW 7/29/2020 10:25",
 		"mouseUp:" : "siddeshkanth logonathan 7/16/2020 20:07" } }
