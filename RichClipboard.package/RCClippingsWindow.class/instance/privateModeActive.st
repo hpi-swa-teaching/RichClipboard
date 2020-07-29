@@ -1,3 +1,3 @@
 private mode
 privateModeActive
-	^ privateModeActive ifNil: [ false ]
+	^ richClipboard privateModeActive

@@ -6,15 +6,13 @@
 		 ],
 	"commentStamp" : "DW 5/24/2020 16:52",
 	"instvars" : [
-		"storage",
+		"richClipboard",
 		"clippingsList",
 		"regexSearchBarVisible",
 		"regexSearchBarMorph",
 		"toolbarMorph",
 		"alphabeticSortInverted",
 		"dateSortInverted",
-		"privateModeActive",
-		"systemClipboard",
 		"currentSortMode" ],
 	"name" : "RCClippingsWindow",
 	"pools" : [

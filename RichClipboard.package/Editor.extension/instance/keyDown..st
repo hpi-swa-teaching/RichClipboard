@@ -9,7 +9,7 @@ keyDown: anEvent
 	(RCEditorGlobalStateHandler altKeyDown 
 		and: [ RCEditorGlobalStateHandler ctrlKeyDown
 		and: [ anEvent keyValue = $V asciiValue ]]) ifTrue: [
-			self rcSelectAndPasteClipping.
+			RichClipboard default openContextMenu: self.
 			RCEditorGlobalStateHandler ctrlKeyDown: false.
 			RCEditorGlobalStateHandler altKeyDown: false
 	]

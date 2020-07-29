@@ -2,11 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clippingsList" : "joj 6/1/2020 11:46",
-		"clippingsList:" : "joj 6/1/2020 11:46",
-		"setUp" : "siddeshkanth logonathan 6/27/2020 09:28",
-		"storage" : "joj 6/1/2020 11:46",
-		"storage:" : "joj 6/1/2020 11:46",
-		"testOpenRCContextMenu" : "siddeshkanth logonathan 6/27/2020 09:29",
-		"testPasteSelectedClipping" : "joj 6/7/2020 18:26",
-		"testRetrieveRecentClippings" : "joj 6/7/2020 15:08" } }
+		"setUp" : "joj 7/9/2020 20:01",
+		"tearDown" : "joj 7/9/2020 19:22",
+		"testPasteSelectedClipping" : "joj 7/9/2020 20:16",
+		"testRetrieveRecentClippings" : "joj 7/9/2020 20:10" } }
