@@ -6,7 +6,7 @@ initialize
 	storage := RCStorage newWithRichClipboard: self.
 
 	self isTestInstance ifTrue: [
-		systemClipboard := RCSystemClipboardNullObject new.
+		systemClipboard := RCSystemClipboardMockObject new.
 	] ifFalse: [
 		systemClipboard := Clipboard default.
 		self addToAppsWorldMenu
