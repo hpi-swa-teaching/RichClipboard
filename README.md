@@ -34,6 +34,8 @@ Metacello new
 
 If you'd like to contribute, have a look in the [wiki](https://github.com/hpi-swa-teaching/RichClipboard/wiki), where we've set up a series of guidelines for development.
 
+A list of possible user stories for further development can be found under `TODO` in the [project board](https://github.com/hpi-swa-teaching/RichClipboard/projects/1) (from the repo: `Projects` > `Rich Clipboard`).
+
 ## History
 
 This project was started in summer term 2020 as part of the Software Engineering course at HPI.
