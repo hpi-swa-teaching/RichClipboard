@@ -1,0 +1,1 @@
+This object is used so that we don't have to use the real HandMorph.
