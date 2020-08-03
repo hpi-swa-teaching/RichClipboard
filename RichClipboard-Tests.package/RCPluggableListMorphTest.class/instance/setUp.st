@@ -1,5 +1,8 @@
 running
 setUp
+	| window |
+	
 	richClipboard := RichClipboard newTestInstance.
-	clippingsList := RCClippingsList newWithRichClipboard: 	richClipboard.
-	pluggableListMorph := RCPluggableListMorph newWithClippingsList: clippingsList
+	window := richClipboard openInWorld.
+	clippingsList := window clippingsList.
+	pluggableListMorph := window pluggableListMorph

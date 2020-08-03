@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "graf 7/8/2020 09:38",
+		"setUp" : "graf 8/3/2020 15:03",
 		"tearDown" : "graf 7/8/2020 09:39",
-		"testRightClickOnListItem" : "joj 8/3/2020 13:34",
-		"testSetsLastEventWasMouseEventCorrectly" : "joj 8/3/2020 13:34",
-		"testUsesCorrectListMorph" : "DW 7/29/2020 11:20" } }
+		"testRightClickOnListItem" : "graf 8/3/2020 14:59",
+		"testSetsLastEventWasMouseEventCorrectly" : "graf 8/3/2020 14:58",
+		"testUsesCorrectListMorph" : "graf 8/3/2020 14:58" } }

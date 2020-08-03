@@ -1,11 +1,7 @@
 testing
 testSetsLastEventWasMouseEventCorrectly
-	| clippingsList pluggableListMorph event storage |
-	
-	storage := RCStorage new.
-	clippingsList := RCClippingsList newWithRichClipboard: richClipboard.
-	pluggableListMorph := RCPluggableListMorph newWithClippingsList: clippingsList.
-	
+	| event |
+		
 	event := KeyboardEvent new
 			setType: #keyStroke
 			buttons: 0
