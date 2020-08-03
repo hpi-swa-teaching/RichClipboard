@@ -1,0 +1,3 @@
+accessors
+deleteCallback
+	^ deleteCallback

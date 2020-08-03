@@ -3,7 +3,7 @@ setUp
 	richClipboard := RichClipboard newTestInstance.
 	systemClipboard := richClipboard systemClipboard.
 	storage := richClipboard storage.
-	editor := RCEditorNullObject new.
+	editor := RCEditorMockObject new.
 	contextMenu := richClipboard openContextMenu: editor.
 	clippingsList := contextMenu clippingsList.
 	

@@ -1,6 +1,6 @@
 initialize-release
 addClippingsList
-	| listMorphFrame pluggableListMorph |
+	| listMorphFrame |
 	listMorphFrame := LayoutFrame new.
 	listMorphFrame leftFraction: 0;
 		 rightFraction: 1;

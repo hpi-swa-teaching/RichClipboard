@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clippings" ],
-	"name" : "RCSystemClipboardNullObject",
+		"pastedClippings" ],
+	"name" : "RCEditorMockObject",
 	"pools" : [
 		 ],
 	"super" : "Object",
