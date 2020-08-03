@@ -7,7 +7,7 @@ mouseDown: anEvent
 		row := self rowAtLocation: anEvent position.
 		menu := self  itemMenuFor: row.
 		menu position: anEvent position;
-			    openInWorld
+			    	openInWorld
 	] ifFalse: [
 		self listMorph lastEventWasMouseEvent: true.
 		self changeModelSelection: (self rowAtLocation: anEvent position).
