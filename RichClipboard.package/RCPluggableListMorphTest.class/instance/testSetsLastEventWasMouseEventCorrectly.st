@@ -1,7 +1,7 @@
 testing
 testSetsLastEventWasMouseEventCorrectly
 	| event |
-	
+		
 	event := KeyboardEvent new
 			setType: #keyStroke
 			buttons: 0
@@ -16,13 +16,13 @@ testSetsLastEventWasMouseEventCorrectly
 				setType: #mouseDown
 				position: pluggableListMorph center
 				buttons: 0
-				hand: RCHandNullObject new.
+				hand: RCHandMockObject new.
 	pluggableListMorph mouseDown: event.
 	event := MouseEvent new 
 				setType: #mouseUp
 				position: pluggableListMorph center
 				buttons: 0
-				hand: RCHandNullObject new.
+				hand: RCHandMockObject new.
 	pluggableListMorph mouseUp: event.
 	self assert: clippingsList lastEventWasMouseEvent
 	

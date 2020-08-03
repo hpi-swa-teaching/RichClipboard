@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "joj 7/6/2020 00:25",
 	"instvars" : [
-		 ],
+		"deleteCallback",
+		"deleteCallbackObject",
+		"itemMenu" ],
 	"name" : "RCPluggableListMorph",
 	"pools" : [
 		 ],

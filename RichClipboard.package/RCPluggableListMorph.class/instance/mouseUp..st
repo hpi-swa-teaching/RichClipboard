@@ -1,4 +1,3 @@
 event handling
 mouseUp: anEvent
-	self listMorph lastEventWasMouseEvent: true.
-	super mouseUp: anEvent
+	" Consume mouseUp event as we do not want PluggableListMorph to handle it. "
