@@ -5,7 +5,7 @@
 	"classvars" : [
 		"AltKeyDown",
 		"CtrlKeyDown" ],
-	"commentStamp" : "",
+	"commentStamp" : "joj 8/3/2020 16:33",
 	"instvars" : [
 		 ],
 	"name" : "RCEditorGlobalStateHandler",

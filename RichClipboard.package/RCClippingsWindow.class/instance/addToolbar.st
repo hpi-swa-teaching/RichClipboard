@@ -1,6 +1,7 @@
 initialize-release
 addToolbar
 	| pluggablePanelFrame |
+	
 	pluggablePanelFrame := LayoutFrame new.
 	pluggablePanelFrame leftFraction: 0;
 		 rightFraction: 1;

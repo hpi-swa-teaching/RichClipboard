@@ -3,8 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DefaultInstance" ],
-	"commentStamp" : "",
+		 ],
+	"commentStamp" : "joj 8/3/2020 16:40",
 	"instvars" : [
 		"content" ],
 	"name" : "RCStorageItem",
